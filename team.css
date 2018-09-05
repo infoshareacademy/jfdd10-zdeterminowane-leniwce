@@ -1,3 +1,15 @@
 .main-team {
     background: darkblue;
 }
+
+.team-top {
+    background: lightblue;
+}
+
+.team-bottom {
+    background: lightcyan;
+}
+
+.team-description .team-logo .team-member {
+    border: 5px solid black;
+}
