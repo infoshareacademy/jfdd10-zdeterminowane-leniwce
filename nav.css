@@ -1,27 +1,33 @@
 #nav {
-    height: 100px;
-    background: lightblue;
+    height: 76px;
+    background: darkblue;
     display: flex;
     justify-content: space-between;
 }
 .logo {
-    height: 85px;
-    width: 85px;
-    background: lightgreen;
-    margin: 5px;
+    height: 30px;
+    width: 150px;
+    background: lightblue;
+    margin: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu {
     display: flex;
     align-items: stretch;
 }
 .nav-item {
-    background: green;
+    background: darkblue;
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
-    height: 80px;
+    height: 52px;
     font-size: 22px;
     margin: 5px;
     width: 230px;
+    color: white;
+    text-decoration: none;
 }
