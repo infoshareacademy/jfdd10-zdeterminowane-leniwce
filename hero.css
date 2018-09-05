@@ -1,3 +1,12 @@
-body {
-    
+.container-hero {
+    background-color: #1c2b49;
+}
+
+.left, .right {
+    height: 150px;
+}
+
+.text-hero {
+    background: #193750;
+    height: 30%;;
 }
