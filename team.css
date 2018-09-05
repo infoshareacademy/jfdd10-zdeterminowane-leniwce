@@ -4,12 +4,48 @@
 
 .team-top {
     background: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-description {
+    width: 50%;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.team-logo {
+    width: 15%;
+    margin: 10px;
 }
 
 .team-bottom {
     background: lightcyan;
+    display: flex;
+    justify-content: space-between;
 }
 
-.team-description .team-logo .team-member {
-    border: 5px solid black;
+.team-member {
+    margin: 10px;
+    max-width: 20%;
+    padding: 5px;
+}
+
+.member-description {
+    font-size: 30px;
+}
+
+/* .member-img-container {
+} */
+
+.team-member, .team-logo, .team-description {
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.member-img-container, .member-description, .member-links {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 100%;
+    margin-bottom: 5px;
 }
