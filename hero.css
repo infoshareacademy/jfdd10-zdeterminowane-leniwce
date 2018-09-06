@@ -14,18 +14,18 @@
 }
 
 .text {
-    background: #1c2b49;
+    background: #3d491c;
     width: 50%;
-    margin: 30px;
+    margin: 30px auto 30px 90px;
     padding: 20px;
     text-align: center;
     color: white;
 }
 
 .description {
-    background:#1c2b49;
-    width: 70%;
-    margin: 20px;
+    background: rebeccapurple;
+    width: 90%;
+    margin: 20px auto 40px 15px;
     padding: 20px;
     text-align: justify;
     color: #14f1d9;
@@ -34,26 +34,29 @@
 
 .right {
     width: 50%;
+    
 }
+/*  
+.odnosnik {
+    background: aqua;
+    width: 30%;
+    text-align: right;
+    
+  }
 
 .animation {
     background: green;
     width: 70%;
-    margin: 20px;
-    padding: 20px;
-    
-
+    height: 60%;
+    margin: 30px 30px 30px;
+}
+*/
+.odnosnik {
+    background: #3d491c;
+    text-align: center;
+    color: white;
 }
 
-.button {
- margin: 20px;
-}
+.animation {
+    background: rebeccapurple;
 
-. {
-    animation: permarotate infinite 5s linear;
-}
-
-@keyframes permarotate {
-    to {
-        transform: rotate(360deg);
-    }
