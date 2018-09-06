@@ -4,36 +4,41 @@
     display: flex;
 }
 
-.right {
-    height: 300px;
-    width: 50%;
-    display: flex;
-
-}
-
 .left {
-    height: 300px;
     width: 50%;
     
     /* display: flex;
     justify-content: space-around;
     flex-direction: column;
-    align-content: center; */
-    
+    align-content: center; */   
 }
 
 .text {
     background: green;
-    height: 150px;
     width: 250px;
-    margin: 5%;;
+    margin: 20px;
+    padding: 20px;
 }
 
 .description {
     background: red;
-    height: 70px;
     width: 400px;
-    margin: 5%;
+    margin: 20px;
+    padding: 20px;
 }
 
 
+.right {
+    width: 50%;
+}
+
+.animation {
+    background: green;
+    width: 250px;
+    
+
+}
+
+.button {
+
+}
