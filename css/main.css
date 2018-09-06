@@ -1,0 +1,11 @@
+
+.row {
+    display: flex;
+}
+.column {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+}
