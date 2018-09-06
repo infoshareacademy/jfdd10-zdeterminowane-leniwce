@@ -45,7 +45,46 @@
 
 .member-img-container, .member-description, .member-links {
     box-sizing: border-box;
-    border: 2px solid red;
     width: 100%;
     margin-bottom: 5px;
+}
+
+.member-img-container {
+    border-radius: 50%;
+    box-shadow: 0 0 20px black
+}
+
+.member-description {
+    text-align: center;
+    font-size: 40px;
+}
+
+.member-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 3.5em;
+    padding: 10px;
+}
+
+.member-links>a {
+    color: black;
+    transition: 1s;
+}
+
+/* animacje */
+
+.member-links>a:hover {
+    color: darkmagenta;
+    transition: 1s;
+}
+
+.member-img-container:hover {
+    animation: permarotate infinite 0.5s linear;
+}
+
+@keyframes permarotate {
+    to {
+        transform: rotate(360deg);
+    }
 }
