@@ -1,12 +1,39 @@
 .container-hero {
+    
     background-color: #1c2b49;
+    display: flex;
 }
 
-.left, .right {
-    height: 150px;
+.right {
+    height: 300px;
+    width: 50%;
+    display: flex;
+
+}
+
+.left {
+    height: 300px;
+    width: 50%;
+    
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center; */
+    
 }
 
 .text {
-    background: #193750;
-    height: 30%;;
+    background: green;
+    height: 150px;
+    width: 250px;
+    margin: 5%;;
 }
+
+.description {
+    background: red;
+    height: 70px;
+    width: 400px;
+    margin: 5%;
+}
+
+
