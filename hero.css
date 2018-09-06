@@ -5,12 +5,7 @@
 }
 
 .left {
-    width: 50%;
-    
-    /* display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: center; */   
+    width: 50%;  
 }
 
 .text {
@@ -30,18 +25,25 @@
     text-align: justify;
     color: #14f1d9;
 }
-
-
-.right {
-    width: 50%;   
-}
-
 .odnosnik {
     background: #3d491c;
     text-align: center;
     color: white;
 }
 
-.animation {
-    background: rebeccapurple;
+.right {
+    width: 50%;   
+}
+
+
+ img {
+    max-width: 96%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+   }
+
+ img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
