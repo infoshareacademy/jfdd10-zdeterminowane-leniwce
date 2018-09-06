@@ -69,22 +69,26 @@
 
 .member-links>a {
     color: black;
-    transition: 1s;
+    transition: 2s ease-out;
 }
 
 /* animacje */
 
 .member-links>a:hover {
     color: darkmagenta;
-    transition: 1s;
+    transform: scale(1.1);
+    transition: 0.5s;
+
 }
 
 .member-img-container:hover {
-    animation: permarotate infinite 0.5s linear;
+    animation: permarotate infinite 1s linear;
 }
+
 
 @keyframes permarotate {
     to {
         transform: rotate(360deg);
     }
 }
+
