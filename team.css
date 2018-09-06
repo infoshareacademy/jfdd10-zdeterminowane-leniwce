@@ -15,8 +15,17 @@
 }
 
 .team-logo {
-    width: 15%;
+    width: 20%;
+    /* max-height: 400px; */
     margin: 10px;
+    
+}
+
+.team-logo-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .team-bottom {
@@ -38,9 +47,9 @@
 /* .member-img-container {
 } */
 
-.team-member, .team-logo, .team-description {
+.team-member, .team-description {
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 10px solid black;
 }
 
 .member-img-container, .member-description, .member-links {
