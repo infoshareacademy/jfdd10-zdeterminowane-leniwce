@@ -8,8 +8,16 @@ body{
     
 }
 .form{
-    height: 60%;
+    height: 15%;
+    width: 20%;
     background: blueviolet;
     margin-top: 100px;
     
+}
+.form-input{
+
+
+}
+.form-btn{
+
 }
