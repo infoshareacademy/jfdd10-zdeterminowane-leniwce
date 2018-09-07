@@ -4,8 +4,11 @@
 }
 .column {
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: red;
     text-align: center;
+}
+.icon-wrap {
+    display: block
 }
