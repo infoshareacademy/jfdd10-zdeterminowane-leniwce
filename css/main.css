@@ -1,14 +1,36 @@
 
-.row {
-    display: flex;
+.main-container {
+    background-color: rgba(92, 92, 92, 0.767);
+    height: 400px;
 }
-.column {
-    margin: 5px;
-    width: 200px;
-    height: 200px;
+
+.main-title {
+    background: rgb(57, 154, 211);
+    height: 50px;
+    text-align: center;
+    ;
+    
+
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.main-column {
+    margin: 5px; 
     background-color: red;
     text-align: center;
 }
-.icon-wrap {
+
+.main-icon {
     display: block
+}
+
+
+.main-text {
+    
+
 }
