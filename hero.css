@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-.container-hero {
+.hero-container {
     margin-top: 76px;
     margin-left: 0;
     margin-right: 0;
@@ -12,13 +12,13 @@
 
 }
 
-.left {
+.hero-left {
     width: 50%;  
     display: block;
     
 }
 
-.text {
+.hero-text {
     background:  #1c2b49;
     width: 50%;
     margin: 20px auto 40px 200px;
@@ -29,7 +29,7 @@
     font-size: 20px;
 }
 
-.description {
+.hero-description {
     background:  #1c2b49;
     width: 90%;
     margin: 50px auto 100px 15px;
@@ -39,7 +39,7 @@
     font-size: 20px;
 
 }
-.odnosnik {
+.hero-button {
     background:  #1c2b49;
     text-align: center;
     color: white;
@@ -47,7 +47,7 @@
     margin-bottom: 20px;
 }
 
-.right {
+.hero-right {
     width: 50%;   
 }
 
@@ -71,7 +71,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#hero a:link {
+hero a:link {
     color: red;
 }
 
