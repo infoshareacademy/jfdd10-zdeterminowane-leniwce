@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.main-team {
+    background: darkblue;
+}
+
+.team-top {
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-description {
+    width: 50%;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.team-logo {
+    width: 20%;
+    /* max-height: 400px; */
+    margin: 10px;
+    
+}
+
+.team-logo-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team-bottom {
+    background: lightcyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    margin: 10px;
+    max-width: 20%;
+    padding: 5px;
+}
+
+.member-description {
+    font-size: 30px;
+}
+
+/* .member-img-container {
+} */
+
+.team-member, .team-description {
+    box-sizing: border-box;
+    border: 10px solid black;
+}
+
+.member-img-container, .member-description, .member-links {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.member-img-container {
+    border-radius: 50%;
+    box-shadow: 0 0 20px black
+}
+
+.member-description {
+    text-align: center;
+    font-size: 40px;
+}
+
+.member-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 3.5em;
+    padding: 10px;
+}
+
+.member-links>a {
+    color: black;
+    transition: 2s ease-out;
+}
+
+/* animacje */
+
+.member-links>a:hover {
+    color: darkmagenta;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.member-img-container:hover {
+    animation: permarotate infinite 1s linear;
+}
+
+
+@keyframes permarotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
