@@ -1,7 +1,15 @@
+#hero {
+    margin: 0;
+}
+
 .container-hero {
-    
+    margin-top: 76px;
+    margin-left: 0;
+    margin-right: 0;
     background-color: #1c2b49;
+
     display: flex;
+
 }
 
 .left {
@@ -44,37 +52,37 @@
 }
 
 
- img {
+.hero-img {
     max-width: 96%;
     height: auto;
     margin: 20px;
     border-radius: 10px;
    }
 
- img:hover {
+.hero-img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
-a {
+#hero a {
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a:link {
+#hero a:link {
     color: red;
 }
 
-a:visited {
+#hero a:visited {
     color: rgb(5, 107, 56);
 }
 
-a:hover {
+#hero a:hover {
     color: hotpink;
 }
 
-a:active {
+#hero a:active {
     color: blue;
 }
