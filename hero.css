@@ -66,23 +66,16 @@
 
 #hero a {
     text-decoration: none;
-    letter-spacing: 3px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 52px;
+    font-size: 18px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: color 0.5s, font-size 0.5s;
+}
+#hero a :hover{
+    color:lightblue;
+    font-size: 23px;
 }
 
-hero a:link {
-    color: red;
-}
 
-#hero a:visited {
-    color: rgb(5, 107, 56);
-}
-
-#hero a:hover {
-    color: hotpink;
-}
-
-#hero a:active {
-    color: blue;
-}
