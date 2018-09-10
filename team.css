@@ -22,7 +22,6 @@ body {
     width: 20%;
     /* max-height: 400px; */
     margin: 10px;
-    
 }
 
 .team-logo-img {
@@ -64,6 +63,8 @@ body {
 
 .member-img-container {
     border-radius: 50%;
+    width: 250px;
+    height: 250px;
     box-shadow: 0 0 20px black
 }
 
@@ -91,17 +92,14 @@ body {
     color: darkmagenta;
     transform: scale(1.1);
     transition: 0.5s;
-
 }
 
 .member-img-container:hover {
     animation: permarotate infinite 1s linear;
 }
 
-
 @keyframes permarotate {
     to {
         transform: rotate(360deg);
     }
 }
-
