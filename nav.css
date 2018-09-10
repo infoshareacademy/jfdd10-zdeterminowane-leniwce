@@ -15,9 +15,9 @@
     right: 0;
 }
 .logo {
-    height: 30px;
-    width: 150px;
-    background: lightblue;
+    height: 80px;
+    width: 120px;
+    /* background: lightblue; */
     margin: 20px;
     align-self: center;
     display: flex;
