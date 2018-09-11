@@ -48,21 +48,81 @@
 }
 
 .hero-right {
-    width: 50%;   
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
 }
-
-
-.hero-img {
-    max-width: 96%;
-    height: auto;
-    margin: 20px;
-    border-radius: 10px;
-   }
-
-.hero-img:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+      
+.hero-right img {
+        position:absolute;
+        left:0;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        display: block;
 }
+.image-top{
+    z-index: 2 !important;
+    opacity: 1;
+}
+.image-bottom{
+    /* z-index: 0 !important; */
+    opacity: 0;
+}
+  
+      /* @keyframes hero-rightFadeInOut {
+        0% {
+        opacity:1;
+        }
+        30% {
+        opacity:1;
+        }
+        40% {
+        opacity:0;
+        }
+        100% {
+        opacity:0;
+        }
+      }
+      @keyframes hero-rightFadeInOutMiddle {
+        0% {
+        opacity:1;
+        }
+        70% {
+        opacity:1;
+        }
+        80% {
+        opacity:0;
+        }
+        100% {
+        opacity:0;
+        }
+      }
+      
+      .hero-right img.top {
+        animation-name: hero-rightFadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 9s;
+        animation-direction: alternate;
+      }
+
+
+      .hero-right img.middle {
+            animation-name: hero-rightFadeInOutMiddle;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 9s;
+            animation-direction: alternate;
+            /* animation-delay: 4s; */
+        } */
+
+
 
 #hero a {
     text-decoration: none;
