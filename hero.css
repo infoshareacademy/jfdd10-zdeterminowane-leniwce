@@ -7,7 +7,6 @@
     margin-left: 0;
     margin-right: 0;
     background-color: #1c2b49;
-
     display: flex;
 
 }
@@ -35,8 +34,10 @@
     margin: 50px auto 100px 15px;
     padding: 30px;
     text-align: justify;
-    color: #14f1d9;
     font-size: 20px;
+    color:  #f05a28;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 19px;
 
 }
 .hero-button {
@@ -46,7 +47,10 @@
     font-size: 30px;
     margin-bottom: 20px;
 }
-
+.hero-button__color{
+    color: #f9d811;
+    font-family: Roboto,Arial,sans-serif;
+}
 .hero-right {
     width: 50%;   
 }
