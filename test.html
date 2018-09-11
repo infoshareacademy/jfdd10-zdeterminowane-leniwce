@@ -28,10 +28,11 @@ var timer2 = 0;
             number++; if(number>5) number=1;
         
 
-var foty = "<img src=\"img/g" + number +".jpg\"/>";
+var photo = "<img src=\"img/g" + number +".jpg\"/>";
 
-document.getElementById("slider").innerHTML = foty;
-$("#slider").fadeIn(500);
+
+document.getElementById("slider").innerHTML = photo;
+$("#slider").fadeIn(500); 
 
 
 timer1 = setTimeout("show()",5000);
