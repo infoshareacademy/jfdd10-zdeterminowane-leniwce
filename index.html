@@ -12,19 +12,21 @@
 
 
     <title>Projekt Leniwców</title>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="Stylesheet" href="hero.css">
     <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="footer.css">
 
+    
 </head>
 
 <!-- ma byc na bazie https://www.lapa.ninja/post/callstack/ wg ustalen;
-kolory obojetnie, byle divy siedzialy tam gdzie maja;
-najlepiej bez zewnetrznych marginesow zeby sie nie rozjechalo po mergu
-branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
- -->
+    kolory obojetnie, byle divy siedzialy tam gdzie maja;
+    najlepiej bez zewnetrznych marginesow zeby sie nie rozjechalo po mergu
+    branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
+    -->
 
 <body>
     <div id="nav">
@@ -65,9 +67,33 @@ branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
     </div>
 
     <div id="main">
+        <div class="main-container">
 
-        <!-- funkcje produktu -->
+            <div class="main-title">YOUR ASSISTANT IN THE TOWN</div>
+    
+            <div class="main-box">
+                <div class="main-column">
+                    <div class="main-icon"> <img src="img/iconmonstr-calendar-thin-240.png" alt="ikona" /></div>
+                    <div class="main-text">Find</div>
+                </div>
+    
+                <div class="main-column">
+                    <div class="main-icon"> <img src="img/camera1.png" alt="ikona" /></div>
+                    <div class="main-text">Discover</div>
+                </div>
+    
+                <div class="main-column">
+                    <div class="main-icon"> <img src="img/location.png" alt="ikona" /></div>
+                    <div class="main-text">Experience</div>
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
     </div>
+    
 
     <div id="form">
         <div class="form-container">
@@ -81,7 +107,7 @@ branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
                         <input type="text" id="uname" name="name" placeholder="Your@email.com" size="30">
                     </div>
                     <div class="form-btn">
-                        <button>Submit</button>
+                        <button type="button">Submit</button>
                     </div>
                 </form>
             </div>
@@ -151,11 +177,11 @@ branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
 
                 <div class="team-member">
 
-                    <img class="member-img-container" src="img/PH.png" />
+                    <img class="member-img-container" src="img/joachim.jpg" />
                     <h3 class="member-description">
                         Joachim <br>Orłowski
                     </h3>
-
+                    <!-- linki i profilowka! -->
                     <div class="member-links">
                         <a href="#" title="Landing Page" target="_blank">
                             <i class="far fa-id-card"></i>
@@ -200,6 +226,8 @@ branche (nazwy) najlepiej wg id sekcji nad ktora bedziecie pracowac
         </div>
     </footer>
 
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
