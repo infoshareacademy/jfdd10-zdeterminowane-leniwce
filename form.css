@@ -34,11 +34,15 @@ form {
 .form-text{
     font-family: Roboto,Arial,sans-serif;
     letter-spacing: 2px;
-    font-size: 25px
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: #122843;
 }
 .form-text2{
     font-family: Roboto,Arial,sans-serif;
-    font-size: 13px
+    font-size: 12px;
+    margin-bottom: 1rem;
+    color: #122843;
 }
 .form-btn{
     border-radius: 15px;
@@ -51,6 +55,9 @@ form {
     font-family: Roboto,Arial,sans-serif;
     margin-top: 10px;
     border-radius: 5px;
+    border-color:#122843;
+    background: #f05a28;
+    color: #122843;
 }
 input{
     height: 20px;
