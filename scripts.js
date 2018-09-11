@@ -23,3 +23,4 @@ function formSent() {
     newForm.innerHTML = 'You have applied successfully! <br> We will notify you when project oficially starts! <br> Your data is kept safe in our SlothBase';
     formContainer.appendChild(newForm);
 }
+
