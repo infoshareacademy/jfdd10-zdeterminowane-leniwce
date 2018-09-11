@@ -1,14 +1,14 @@
 
 .main-container {
-    background-color: rgba(92, 92, 92, 0.767);
-    height: 400px;
+    background-color: rgb(216, 59, 59);
+    height: 800px;
 }
 
 .main-title {
-    background: rgb(57, 154, 211);
-    height: 50px;
+    background: rgb(221, 152, 152);
+    height: 250px;
     text-align: center;
-    ;
+    font-size: 120px;   
     
 
 }
@@ -16,12 +16,11 @@
 .main-box {
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 40px; 
 }
 
 .main-column {
-    margin: 5px; 
-    background-color: red;
+    margin: 5px;
     text-align: center;
 }
 
@@ -30,7 +29,6 @@
 }
 
 
-.main-text {
-    
+.main-text {    
 
 }
