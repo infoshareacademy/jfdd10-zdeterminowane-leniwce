@@ -1,0 +1,50 @@
+
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+
+var number = Math.floor(Math.random()*5)+1;
+
+var timer1 = 0;
+var timer2 = 0;
+
+        function setUpSlide(nr)
+        {
+            clearTimeout(timer1);
+            clearTimeout(timer2);
+            number = nr -1;
+
+            hide();
+            setTimeout("show()",500);
+        }
+
+        function hide()
+        {
+            $("#slider").fadeOut(500);   
+        }
+
+        function show()
+        {
+            number++; if(number>5) number=1;
+        
+
+var foty = "<img src=\"img/g" + number +".jpg\"/>";
+
+document.getElementById("slider").innerHTML = foty;
+$("#slider").fadeIn(500);
+
+
+timer1 = setTimeout("show()",5000);
+timer2 = setTimeout("hide()",4500);
+        }
+
+    </script>
+
+</head>
+<body onload="show()"> 
+    <div id="slider">
+
+</div>
+
+</body>
+</html>
