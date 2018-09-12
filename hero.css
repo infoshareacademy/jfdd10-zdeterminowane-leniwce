@@ -57,14 +57,27 @@
 
 .hero-right img {
     width: 100%;
-    position:absolute;
+    height: 100%;
+    position:absolute;  
+    transition: all 2s; 
+}
+.hero-right img:first-child {
+    opacity: 0;
+}
+.hero-right img:last-child {
+    opacity: 1;
+    animation: appear 2s;
 }
 
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
 
-
-
-
-
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
