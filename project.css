@@ -215,6 +215,7 @@ form {
     font-size: 12px;
     margin-bottom: 1rem;
     color: #122843;
+    text-align: center;
 }
 .form-btn{
     border-radius: 15px;
