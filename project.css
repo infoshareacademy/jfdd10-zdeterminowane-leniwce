@@ -161,12 +161,17 @@
 .main-column {
     margin: 5px;
     text-align: center;
+    width: 20%;
 }
 
 .main-icon {
-    display: block
+    display: block;
+
 }
 
+.main-text {
+    font-size: 30px;
+}
 /* end main */
 
 /* form */
