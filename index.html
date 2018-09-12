@@ -59,55 +59,11 @@
 
             <div class="hero-right">
               
-                
-                <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-                <script type="text/javascript">
-            
-            var numer = Math.floor(Math.random()*5)+1;
-            
-            var timer1 = 0;
-            var timer2 = 0;
-            
-                    function ustawslajd(nr)
-                    {
-                        clearTimeout(timer1);
-                        clearTimeout(timer2);
-                        numer = nr -1;
-            
-                        schowaj();
-                        setTimeout("pokaz()",500);
-                    }
-            
-                    function schowaj()
-                    {
-                        $("#slajder").fadeOut(500);   
-                    }
-            
-                    function pokaz()
-                    {
-                        numer++; if(numer>5) numer=1;
-                    
-            
-            var foty = "<img src=\"f" + numer +".jpg\"/>";
-            
-            document.getElementById("slajder").innerHTML = foty;
-            $("#slajder").fadeIn(500);
-            
-            
-            timer1 = setTimeout("pokaz()",5000);
-            timer2 = setTimeout("schowaj()",4500);
-                    }
-            
-                </script>
-                
-                
-
-
-
-
-
-
-
+                <img src="./img/g1.jpg">
+                <img src="./img/g2.jpg">
+                <img src="./img/g3.jpg">
+                <img src="./img/g4.jpg">
+                <img src="./img/g5.jpg">
             </div>
         </div>
     </div>
@@ -287,6 +243,7 @@ console.log( iterator, images[iterator])
         }());
     </script>
     <script src="scripts.js"></script>
+    <script src="slider.js"></script>
 </body>
 
 </html>
