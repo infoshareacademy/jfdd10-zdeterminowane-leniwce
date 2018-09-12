@@ -58,6 +58,7 @@
 .hero-right img {
     width: 100%;
     height: 100%;
+    box-shadow:0 0 2em white;
     position:absolute;  
     transition: all 2s; 
 }
