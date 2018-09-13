@@ -1,4 +1,7 @@
 /* nav */
+html {
+    font-size: 62.5%;
+}
 
 #nav {
     height: 76px;
@@ -77,11 +80,19 @@
     padding: 20px;
     text-align: center;
     color: #f1f4fc;
-    font-size: 6.4rem;
-    letter-spacing: -.015em;
-    font-weight: 500;
+    
 }
-
+.hero-text__big{
+    font: 4rem/1.2 theinhardt-web,sans-serif;
+    /* font-size: 60px; */
+    /* font-family: theinhardt-web,sans-serif;
+    font-weight: 500; */
+}
+.hero-text__small{
+    /* font-size: 2.1rem; */
+    font: 2.1rem/1.2 theinhardt-web,sans-serif;
+    /* font-family: theinhardt-web,sans-serif; */
+}
 .hero-button {
     background:  #2b57a1;;
     text-align: center;
