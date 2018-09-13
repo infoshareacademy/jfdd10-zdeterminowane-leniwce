@@ -155,23 +155,18 @@
 
 .main-container {
     background-color: #f1f4fc;
-    height: 450px;
+    height: 500px;
 }
     
-
 .main-box {
     display: flex;
     justify-content: space-around;
-    padding-top: 50px; 
-    
+    padding-top: 30px; 
 }
 
 .main-column {
     margin: auto;
-    text-align: center;
-   
 }
-
 
 .main-icon {
     color: #726d87; 
@@ -179,19 +174,18 @@
     width: 350px;
     text-align: center;
     display: table-cell;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
 }
 
 .main-text {
+    width: 350px;
+    height: 300px;
+    font-family: theinhardt-web,sans-serif;
     text-align: center;
     color: #726d87;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: -.015em;
-    font-family: theinhardt-web,sans-serif;
-    width: 350px;
-    line-height: 1.5em;
-
+    line-height: 1.7em;
 }
 
 /* end main */
