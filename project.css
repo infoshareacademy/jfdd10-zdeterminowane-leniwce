@@ -1,13 +1,71 @@
+/* https://pharmacy.well.co.uk/
+czcionki
+nav {
+font-size: 1.8rem;
+font-family: theinhardt-web,sans-serif;
+}
+hero{
+Główny font-size: 6.4rem;
+mniejszy font-size: 2.1rem;
+letter-spacing: -.015em;
+font-family: theinhardt-web,sans-serif;
+font-weight: 500;
+}
+button sign font-size: 2.1rem;
+footer{
+
+font-family: theinhardt-web,sans-serif;
+
+font-style: normal;
+
+font-weight: 400;
+
+}
+
+Kolory
+
+Główny niebieski  #2b57a1;
+
+jasny niebieski #5e9aff
+
+ciemny niebieski #33a58e;
+
+niebieski przyciski #5e9aff
+
+główny zielony #33a58e;
+
+jasny zielony #8bc34a;
+
+pomarańcz #faa539
+niby biały #f1f4fc */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 100%;
+    height: 100%;
     margin: 0;
+    display: block;
+    font-family: theinhardt-web,sans-serif;
+    font-weight: 500;
+    letter-spacing: -.015em;
+    line-height: 1;
+    color: #000;
+    background: #fff;
+
+
+
 }
 
 /* nav */
 
 #nav {
     height: 76px;
-    background: #0771f3;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -18,7 +76,6 @@ body {
 .logo {
     height: 80px;
     width: 120px;
-    margin: 0;
 }
 
 /* TODO humburger menu, DISPLAY:NONE !*/
@@ -29,16 +86,13 @@ body {
 }
 
 .nav-item {
-    background: #122843;
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
     height: 52px;
-    font-size: 18px;
-    margin: 5px;
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-family: theinhardt-web,sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     cursor: pointer;
@@ -46,8 +100,7 @@ body {
 }
 
 .nav-item:hover {
-    color: lightblue;
-    font-size: 23px;
+    font-size: 2rem;
 }
 
 /* end nav  */
@@ -55,15 +108,11 @@ body {
 /* hero */
 
 #hero {
-    margin: 0;
     width: 100%;
 }
 
 .hero-container {
     margin-top: 76px;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #1c2b49;
     width: 100%
 }
 
@@ -72,32 +121,22 @@ body {
 }
 
 .hero-text {
-    background: #1c2b49;
     text-align: center;
-    color: white;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
 .hero-description {
-    background: #1c2b49;
     text-align: justify;
-    color: #14f1d9;
-    font-size: 20px;
 }
 
 .hero-button {
-    background: #1c2b49;
     text-align: center;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 20px;
 }
 
 .hero-right {
     position: relative;
     height: 281px;
-    margin: 0 auto;
 }
 
 .hero-right img {
@@ -129,7 +168,6 @@ body {
 #hero a {
     text-decoration: none;
     height: 52px;
-    font-size: 18px;
     font-family: Roboto, Arial, sans-serif;
     letter-spacing: 4px;
     cursor: pointer;
@@ -137,7 +175,6 @@ body {
 }
 
 #hero a :hover {
-    color: lightblue;
     font-size: 23px;
 }
 
@@ -146,12 +183,10 @@ body {
 /* main */
 
 .main-container {
-    background-color: rgb(216, 59, 59);
     height: 800px;
 }
 
 .main-title {
-    background: rgb(221, 152, 152);
     text-align: center;
 }
 
@@ -161,7 +196,6 @@ body {
 }
 
 .main-column {
-    margin: 5px;
     text-align: center;
 }
 
@@ -175,20 +209,16 @@ body {
 
 .form-container {
     height: 600px;
-    background: #122843;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .form {
     align-items: center;
     border-radius: 15px;
     justify-content: center;
-    margin: auto;
     height: 60%;
-    /* background: blueviolet; */
-    background: #fbaf41d4
+  
 }
 
 form {
@@ -207,15 +237,11 @@ form {
     font-family: Roboto, Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 25px;
-    margin-bottom: 1rem;
-    color: #122843;
 }
 
 .form-text2 {
     font-family: Roboto, Arial, sans-serif;
     font-size: 12px;
-    margin-bottom: 1rem;
-    color: #122843;
 }
 
 .form-btn {
@@ -227,18 +253,13 @@ form {
     font-size: 15px;
     width: 205px;
     font-family: Roboto, Arial, sans-serif;
-    margin-top: 10px;
     border-radius: 5px;
-    border-color: #122843;
-    background: #f05a28;
-    color: #122843;
 }
 
 input {
     height: 20px;
     width: 205px;
     font-family: Roboto, Arial, sans-serif;
-    background: lightblue;
     border-radius: 5px;
 }
 
@@ -247,7 +268,6 @@ input {
 /* team  */
 
 #team {
-    background: #122843;
 }
 
 .team-top {
@@ -255,16 +275,14 @@ input {
 }
 
 .team-description {
-    margin: 10px;
     font-size: 24px;
 }
 
 .team-logo {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .team-logo-img {
-    margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
@@ -278,7 +296,6 @@ input {
 }
 
 .team-member {
-    margin: auto;
     padding: 5px;
 }
 
@@ -319,14 +336,12 @@ input {
 }
 
 .member-links>a {
-    color: black;
     transition: 2s ease-out;
 }
 
 /* animacje */
 
 .member-links>a:hover {
-    color: darkmagenta;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -355,14 +370,12 @@ input {
 /* footer */
 
 .footer {
-    background: #122843;
 }
 
 .footer-text {
     display: flex;
     justify-content: center;
     font-family: Roboto, Arial, sans-serif;
-    color: aliceblue;
     font-size: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
