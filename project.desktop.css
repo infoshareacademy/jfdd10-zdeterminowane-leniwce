@@ -2,7 +2,7 @@
 
 #nav {
     height: 76px;
-    background:#0771f3;
+    background:#254164;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -231,7 +231,6 @@ form {
     font-size: 12px;
     margin-bottom: 1rem;
     color: #122843;
-    text-align: center;
 }
 .form-btn{
     border-radius: 15px;
