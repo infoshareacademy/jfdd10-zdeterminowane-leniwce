@@ -42,7 +42,7 @@
     transition: color 0.5s, font-size 0.5s;
 }
 .nav-item:hover{
-    color:lightblue;
+    color: #5e9aff;
     font-size: 23px;
 }
 
@@ -76,21 +76,12 @@
     margin: 20px auto 40px 200px;
     padding: 20px;
     text-align: center;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 20px;
+    color: #f1f4fc;
+    font-size: 6.4rem;
+    letter-spacing: -.015em;
+    font-weight: 500;
 }
 
-.hero-description {
-    background:  #2b57a1;
-    width: 90%;
-    margin: 50px auto 100px 15px;
-    padding: 30px;
-    text-align: justify;
-    color: #14f1d9;
-    font-size: 20px;
-
-}
 .hero-button {
     background:  #2b57a1;;
     text-align: center;
@@ -104,6 +95,7 @@
     height:281px;
     width:450px;
     margin:0 auto;
+    margin-top: 70px;
 }
  
 .hero-right img {
