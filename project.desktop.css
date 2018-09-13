@@ -2,7 +2,7 @@
 
 #nav {
     height: 76px;
-    background:#254164;
+    background:#2b57a1;;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -25,17 +25,17 @@
     
 }
 .nav-item {
-    background: #122843;
+    background: #2b57a1;;
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
     height: 52px;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin: 5px;
     width: 230px;
     color: white;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: theinhardt-web,sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     cursor: pointer;
@@ -59,7 +59,7 @@
     margin-top: 76px;
     margin-left: 0;
     margin-right: 0;
-    background-color: #1c2b49;
+    background-color: #2b57a1;;
     display: flex;
 
 }
@@ -71,7 +71,7 @@
 }
 
 .hero-text {
-    background:  #1c2b49;
+    background:  #2b57a1;;
     width: 50%;
     margin: 20px auto 40px 200px;
     padding: 20px;
@@ -82,7 +82,7 @@
 }
 
 .hero-description {
-    background:  #1c2b49;
+    background:  #2b57a1;
     width: 90%;
     margin: 50px auto 100px 15px;
     padding: 30px;
@@ -92,7 +92,7 @@
 
 }
 .hero-button {
-    background:  #1c2b49;
+    background:  #2b57a1;;
     text-align: center;
     color: white;
     font-size: 30px;
