@@ -223,23 +223,6 @@
         </div>
     </footer>
 
-    <script>
-        var images;
-        var iterator = 0;
-        function changeImage(){
-            if( iterator + 1 >= images.length ){ iterator = 0; }else{ iterator++; }
-            document.querySelector('.hero-right img.image-bottom').classList.remove('image-bottom');
-console.log( iterator, images[iterator])
-            var current = document.querySelector('.hero-right img.image-top');
-            current.classList.remove('image-top');
-            current.classList.add('image-bottom');
-            images[iterator].classList.add('image-top');
-        }
-        (function(){
-            images = document.querySelectorAll('.hero-right img');
-            // setInterval( changeImage, 5000 );
-        }());
-    </script>
     <script src="scripts.js"></script>
     <script src="slider.js"></script>
 </body>
