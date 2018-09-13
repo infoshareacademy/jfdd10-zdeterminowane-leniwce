@@ -5,7 +5,7 @@ html {
 
 #nav {
     height: 76px;
-    background:#2b57a1;;
+    background:#2b57a1;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -25,6 +25,7 @@ html {
 .menu {
     display: flex;
     align-items: stretch;
+    font-size: 20px;
     
 }
 .nav-item {
@@ -34,7 +35,8 @@ html {
     align-self: center;
     justify-content: center;
     height: 52px;
-    font-size: 1.8rem;
+    font-size: 20px;
+    line-height: 1.5;
     margin: 5px;
     width: 230px;
     color: white;
@@ -64,6 +66,7 @@ html {
     margin-right: 0;
     background-color: #2b57a1;;
     display: flex;
+    height: 550px;
 
 }
 
@@ -76,22 +79,24 @@ html {
 .hero-text {
     background:  #2b57a1;;
     width: 50%;
-    margin: 20px auto 40px 200px;
+    margin: 110px auto 40px 200px;
     padding: 20px;
     text-align: center;
     color: #f1f4fc;
+    height: 100px;
     
 }
 .hero-text__big{
-    font: 4rem/1.2 theinhardt-web,sans-serif;
+    font: 5rem/1.2 theinhardt-web,sans-serif;
     /* font-size: 60px; */
     /* font-family: theinhardt-web,sans-serif;
-    font-weight: 500; */
+    /* font-weight: 500; */
 }
 .hero-text__small{
     /* font-size: 2.1rem; */
     font: 2.1rem/1.2 theinhardt-web,sans-serif;
     /* font-family: theinhardt-web,sans-serif; */
+    margin-top: 30px;
 }
 .hero-button {
     background:  #2b57a1;;
@@ -192,7 +197,7 @@ html {
 
 .form-container{
     height: 600px;
-    background: #122843;
+    background:  #f1f4fc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,8 +242,8 @@ form {
 }
 .form-btn{
     border-radius: 15px;
-    font-size: 15px
-
+    font-size: 15px;
+    
 }
 .form-btn button {
     font-size: 15px;
@@ -246,22 +251,22 @@ form {
     font-family: Roboto,Arial,sans-serif;
     margin-top: 10px;
     border-radius: 5px;
-    border-color:#122843;
-    background: #f05a28;
-    color: #122843;
+    border-color:#448aff;
+    background: #448aff;
+    color:  #f1f4fc;
 }
 input{
     height: 20px;
     width: 205px;
     font-family: Roboto,Arial,sans-serif;
-    background: lightblue;
+    background: #ffeb3bc9;
     border-radius: 5px;
     
 }
 .form{
     height: 60%;
     /* background: blueviolet; */
-     background:#fbaf41d4
+     background:#18bfac
     
     
 }
@@ -390,12 +395,12 @@ body {
 /* end team  */
 /* footer */
 .footer{
-    background:#122843;
+    background:#2b57a1;;
     }
     .footer-text{
     display: flex;
     justify-content:center;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: theinhardt-web,sans-serif;
     color: aliceblue;
     font-size: 14px;
     padding-top: 30px;
