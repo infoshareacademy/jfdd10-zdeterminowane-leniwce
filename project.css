@@ -1,168 +1,118 @@
-/* https://pharmacy.well.co.uk/
-czcionki
-nav {
-font-size: 1.8rem;
-font-family: theinhardt-web,sans-serif;
-}
-hero{
-Główny font-size: 6.4rem;
-mniejszy font-size: 2.1rem;
-letter-spacing: -.015em;
-font-family: theinhardt-web,sans-serif;
-font-weight: 500;
-}
-button sign font-size: 2.1rem;
-footer{
-
-font-family: theinhardt-web,sans-serif;
-
-font-style: normal;
-
-font-weight: 400;
-
-}
-
-Kolory
-
-Główny niebieski  #2b57a1;
-
-jasny niebieski #5e9aff
-
-ciemny niebieski #33a58e;
-
-niebieski przyciski #5e9aff
-
-główny zielony #33a58e;
-
-jasny zielony #8bc34a;
-
-pomarańcz #faa539
-niby biały #f1f4fc */
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: block;
-    font-family: theinhardt-web,sans-serif;
-    font-weight: 500;
-    letter-spacing: -.015em;
-    line-height: 1;
-    color: #000;
-    background: #fff;
-
-
-
-}
-
 /* nav */
 
 #nav {
     height: 76px;
+    background:#122843;
+    display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background: #2b57a1;
-    color: #fff;
-    display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    justify-content: space-between;
+    right: 0;
 }
-
 .logo {
     height: 80px;
     width: 120px;
+    margin: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/* TODO humburger menu, DISPLAY:NONE !*/
-
 .menu {
+    display: flex;
     align-items: stretch;
-    margin-top:auto;
-    margin-bottom: auto;
+    
 }
-
 .nav-item {
+    background: #122843;
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
     height: 52px;
-    font-size: 1.8rem;
-    font-family: theinhardt-web,sans-serif;
+    font-size: 18px;
+    margin: 5px;
+    width: 230px;
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     cursor: pointer;
     transition: color 0.5s, font-size 0.5s;
-    display: none;
-
+}
+.nav-item:hover{
+    color:lightblue;
+    font-size: 23px;
 }
 
-.nav-item:hover {
-    font-size: 2rem;
-}
 
 /* end nav  */
 
 /* hero */
 
 #hero {
-    width: 100%;
-    background: #2b57a1;
-    color: #fff;
+    margin: 0;
 }
 
 .hero-container {
-    margin-top: 4em;
-    width: 100%;
-    padding-top: 2em;
+    margin-top: 76px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #1c2b49;
+    display: flex;
 
 }
 
 .hero-left {
+    width: 50%;  
     display: block;
-    text-align: start;
-    width: 60%;
-    padding-top: 2em;
-    padding-left: 2em;
+    
 }
 
+.hero-text {
+    background:  #1c2b49;
+    width: 50%;
+    margin: 20px auto 40px 200px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.hero-description {
+    background:  #1c2b49;
+    width: 90%;
+    margin: 50px auto 100px 15px;
+    padding: 30px;
+    text-align: justify;
+    color: #14f1d9;
+    font-size: 20px;
+
+}
 .hero-button {
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
-}
-
-.hero-button__color {
-    background: #fff;
-    text-decoration: none;
-    padding: 1em 4em;
-    border-radius: 5px;
-
-
+    background:  #1c2b49;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .hero-right {
-    position: relative;
-    height: 281px;
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
 }
-
+ 
 .hero-right img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    transition: all 2s;
+    box-shadow:0 0 2em white;
+    position:absolute;  
+    transition: all 2s; 
 }
-
 .hero-right img:first-child {
     opacity: 0;
 }
@@ -176,27 +126,42 @@ body {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
 
+#hero a {
+    text-decoration: none;
+    height: 52px;
+    font-size: 18px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: color 0.5s, font-size 0.5s;
+}
+#hero a :hover{
+    color:lightblue;
+    font-size: 23px;
+}
+
 
 /* end hero */
 
 /* main */
 
-.main-container {
 
+.main-container {
     background-color: #f1f4fc;
     padding-top: 4em;
 
     
 }
     
-
 .main-box {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -239,21 +204,25 @@ body {
     text-align: center;
 }
 
-.form {
+.form{
+    height: 35%;
+    width: 40%;
+    background: #5e93d4;
+    display: flex;
     align-items: center;
     border-radius: 15px;
-    justify-content: center;
-    height: 60%;
-  
+    justify-content:center;
 }
 
 form {
+    display: flex;
     align-items: center;
     border-radius: 15px;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: column;
 }
 
-.form-input {
+.form-input{
     border-radius: 15px;
     justify-content: center;
     font-size: 1em;
@@ -274,6 +243,7 @@ form {
     padding: 0.5em;
 
 }
+
 
 .form-btn button {
     width: 205px;
@@ -299,11 +269,16 @@ input {
 
 /* team  */
 
+body {
+    margin: 0;
+}
 #team {
     padding-top: 4em
 }
 
 .team-top {
+   
+    display: flex;
     justify-content: space-between;
 }
 
@@ -314,7 +289,6 @@ input {
 .team-bottom {
     padding-top: 4em;
 }
-
 .team-member, .team-description {
     box-sizing: border-box;
     margin: auto;
@@ -323,6 +297,7 @@ input {
 .member-img-container, .member-description, .member-links {
     box-sizing: border-box;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .team-member {
@@ -359,6 +334,7 @@ input {
 }
 
 .member-links>a {
+    color: black;
     transition: 2s ease-out;
     text-decoration: none;
 }
@@ -366,6 +342,7 @@ input {
 /* animacje */
 
 .member-links>a:hover {
+    color: darkmagenta;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -381,7 +358,7 @@ input {
 }
 
 @keyframes appear {
-    from {
+    from{
         opacity: 0;
     }
     to {
@@ -390,17 +367,17 @@ input {
 }
 
 /* end team  */
-
 /* footer */
 
 
 .footer-text {
     display: flex;
-    justify-content: center;
-    font-family: Roboto, Arial, sans-serif;
+    justify-content:center;
+    font-family: Roboto,Arial,sans-serif;
+    color: aliceblue;
     font-size: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+    }
 
 /* end footer */
