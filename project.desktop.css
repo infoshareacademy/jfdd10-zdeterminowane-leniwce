@@ -35,12 +35,10 @@
     align-self: center;
     justify-content: center;
     height: 52px;
-    font-size: 20px;
-    line-height: 1.5;
     margin: 5px;
     width: 230px;
     color: white;
-    font-family: theinhardt-web,sans-serif;
+    font: 20px/1.5 sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     cursor: pointer;
@@ -162,8 +160,6 @@
 
 
 .main-container {
-    background-color: rgb(216, 59, 59);
-    height: 800px;
 }
 
 .main-title {
