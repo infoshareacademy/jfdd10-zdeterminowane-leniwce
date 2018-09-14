@@ -290,6 +290,7 @@ input {
 /* team  */
 
 #team {
+    padding-top: 4em
 }
 
 .team-top {
@@ -300,22 +301,13 @@ input {
     font-size: 1.2em;
 }
 
-
 .team-bottom {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.team-member {
-    padding: 5px;
-}
-
-.member-description {
-    font-size: 30px;
+    padding-top: 4em;
 }
 
 .team-member, .team-description {
     box-sizing: border-box;
+    margin: auto;
 }
 
 .member-img-container, .member-description, .member-links {
@@ -323,19 +315,29 @@ input {
     width: 100%;
 }
 
+.team-member {
+    padding-top: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
 .member-img-container {
     border-radius: 50%;
-    width: 250px;
     height: 250px;
     box-shadow: 0 0 20px whitesmoke;
+    text-align: center;
     
 }
 
 .member-description {
     text-align: center;
-    font-size: 40px;
+    font-size: 2em;
     box-shadow: 0 0 15px white;
     animation: appear 5s;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
 
 .member-links {
@@ -348,6 +350,7 @@ input {
 
 .member-links>a {
     transition: 2s ease-out;
+    text-decoration: none;
 }
 
 /* animacje */
