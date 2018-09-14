@@ -233,6 +233,10 @@ body {
 .form-container {
     align-items: center;
     justify-content: center;
+    padding-top: 4em;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
 }
 
 .form {
@@ -253,36 +257,31 @@ form {
     border-radius: 15px;
     justify-content: center;
     font-size: 1em;
+    
 }
 
 .form-text {
-    font-family: Roboto, Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 2em;
 }
 
-.form-text2 {
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 12px;
-}
 
 .form-btn {
     border-radius: 15px;
-    font-size: 15px
+    font-size: 2em;
 }
 
 .form-btn button {
-    font-size: 15px;
     width: 205px;
-    font-family: Roboto, Arial, sans-serif;
     border-radius: 5px;
 }
 
 input {
-    height: 20px;
+    height: 3em;
     width: 205px;
-    font-family: Roboto, Arial, sans-serif;
     border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 /* end form */
