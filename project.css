@@ -80,24 +80,29 @@ h1, h2, h3 {
 
 .hero-text {
     background: #2b57a1;
-    width: 50%;
+    width: 100%;
     margin: 20px auto 40px 50px;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
     color: #f1f4fc;
+    
 }
 
 .hero-text__small {
+    margin-left: 54px;
     margin-top: 30px;
+}
+.hero-text__big{
+    margin-left: 40px; 
 }
 
 .hero-button {
     background: #2b57a1;
-    text-align: center;
     color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-    text-align: center;
+    
+   
 }
 .hero-button__color {
     background: white;
