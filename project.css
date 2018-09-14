@@ -1,7 +1,9 @@
+@media (max-width: 375px) {
 body {
     margin: 0;
     font-family: 'Gamja Flower', cursive;
     font-size: 28px;
+    
 }
 
 h1, h2, h3 {
@@ -25,7 +27,7 @@ h1, h2, h3 {
 .logo {
     height: 80px;
     width: 120px;
-    margin-left: 160px;
+    margin-left: 135px;
     align-self: center;
     /* display: flex; */
     justify-content: center;
@@ -33,7 +35,7 @@ h1, h2, h3 {
 }
 
 .menu {
-    /* display: hidden; */
+    
     align-items: stretch;
     visibility: hidden;
 }
@@ -348,4 +350,5 @@ input {
     color: aliceblue;
     padding-top: 30px;
     padding-bottom: 30px;
+}
 }
