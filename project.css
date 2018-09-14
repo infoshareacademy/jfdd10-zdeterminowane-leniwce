@@ -80,7 +80,7 @@ h1, h2, h3 {
 
 .hero-text {
     background: #2b57a1;
-    width: 100%;
+    width: 110%;
     margin: 20px auto 40px 50px;
     padding: 20px;
     /* text-align: center; */
@@ -99,8 +99,8 @@ h1, h2, h3 {
 .hero-button {
     background: #2b57a1;
     color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-left: 25px
     
    
 }
