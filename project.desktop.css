@@ -67,6 +67,7 @@ h1, h2, h3 {
     margin-right: 0;
     background-color: #2b57a1;
     display: flex;
+
 }
 
 .hero-left {
@@ -236,9 +237,6 @@ input {
     background: #18bfac
 }
 
-#team {
-    background: #122843;
-}
 
 .team-top {
     display: flex;
@@ -274,7 +272,7 @@ input {
 .team-member {
     margin: 10px;
     max-width: 20%;
-    padding: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .team-member, .team-description {
@@ -283,14 +281,12 @@ input {
 
 .member-img-container, .member-description, .member-links {
     box-sizing: border-box;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 5px;
 }
 
 .member-img-container {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    
     box-shadow: 0 0 20px whitesmoke
 }
 
@@ -298,6 +294,9 @@ input {
     text-align: center;
     box-shadow: 0 0 15px white;
     animation: appear 5s;
+    font-size: 22px;
+    line-height: 1.1;
+    margin-top: 5px;
 }
 
 .member-links {
@@ -320,7 +319,7 @@ input {
 }
 
 .member-img-container:hover {
-    animation: permarotate infinite 1s linear;
+    /* animation: permarotate infinite 1s linear; */
 }
 
 @keyframes permarotate {
