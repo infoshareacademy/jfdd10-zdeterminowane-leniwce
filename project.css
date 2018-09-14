@@ -262,26 +262,35 @@ form {
 
 .form-text {
     letter-spacing: 2px;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 1em;
 }
 
 
 .form-btn {
     border-radius: 15px;
     font-size: 2em;
+    padding: 0.5em;
+
 }
 
 .form-btn button {
     width: 205px;
     border-radius: 5px;
+    padding: 1em 4em;
+    background: #448aff;
+    color: #fff;
+
 }
 
 input {
     height: 3em;
-    width: 205px;
+    width: 100%;
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
+    font-weight: bolder;
 }
 
 /* end form */
