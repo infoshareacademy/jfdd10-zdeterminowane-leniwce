@@ -1,11 +1,10 @@
-/* nav */
-/* html {
-    font-size: 62.5%;
-} */
+body {
+    margin: 0;
+}
 
 #nav {
     height: 76px;
-    background:#2b57a1;
+    background: #2b57a1;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -13,6 +12,7 @@
     left: 0;
     right: 0;
 }
+
 .logo {
     height: 80px;
     width: 120px;
@@ -22,14 +22,15 @@
     justify-content: center;
     align-items: center;
 }
+
 .menu {
     display: flex;
     align-items: stretch;
-    font-size: 20px;
-    
 }
+
 .nav-item {
-    background: #2b57a1;;
+    background: #2b57a1;
+    ;
     display: flex;
     align-items: center;
     align-self: center;
@@ -38,21 +39,14 @@
     margin: 5px;
     width: 230px;
     color: white;
-    font: 20px/1.5 sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     cursor: pointer;
-    transition: color 0.5s, font-size 0.5s;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     color: #5e9aff;
-    font-size: 23px;
 }
-
-
-/* end nav  */
-
-/* hero */
 
 #hero {
     margin: 0;
@@ -62,63 +56,56 @@
     margin-top: 76px;
     margin-left: 0;
     margin-right: 0;
-    background-color: #2b57a1;;
+    background-color: #2b57a1;
+    ;
     display: flex;
     height: 550px;
-
 }
 
 .hero-left {
-    width: 50%;  
+    width: 50%;
     display: block;
-    
 }
 
 .hero-text {
-    background:  #2b57a1;;
+    background: #2b57a1;
+    ;
     width: 50%;
     margin: 110px auto 40px 200px;
     padding: 20px;
     text-align: center;
     color: #f1f4fc;
     height: 100px;
-    
 }
-.hero-text__big{
-    font: 5rem/1.2 theinhardt-web,sans-serif;
-    /* font-size: 60px; */
-    /* font-family: theinhardt-web,sans-serif;
-    /* font-weight: 500; */
-}
-.hero-text__small{
-    /* font-size: 2.1rem; */
-    font: 2.1rem/1.2 theinhardt-web,sans-serif;
-    /* font-family: theinhardt-web,sans-serif; */
+
+.hero-text__small {
     margin-top: 30px;
 }
+
 .hero-button {
-    background:  #2b57a1;;
+    background: #2b57a1;
+    ;
     text-align: center;
     color: white;
-    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .hero-right {
-    position:relative;
-    height:281px;
-    width:450px;
-    margin:0 auto;
+    position: relative;
+    height: 281px;
+    width: 450px;
+    margin: 0 auto;
     margin-top: 70px;
 }
- 
+
 .hero-right img {
     width: 100%;
     height: 100%;
-    box-shadow:0 0 2em white;
-    position:absolute;  
-    transition: all 2s; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    transition: all 2s;
 }
+
 .hero-right img:first-child {
     opacity: 0;
 }
@@ -132,49 +119,33 @@
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
 }
 
-
 #hero a {
     text-decoration: none;
     height: 52px;
-    font-size: 18px;
-    font-family: Roboto,Arial,sans-serif;
     letter-spacing: 4px;
     cursor: pointer;
     transition: color 0.5s, font-size 0.5s;
 }
-#hero a :hover{
-    color:lightblue;
-    font-size: 23px;
-}
 
-
-/* end hero */
-
-/* main */
-
-
-.main-container {
+#hero a :hover {
+    color: lightblue;
 }
 
 .main-title {
     background: rgb(221, 152, 152);
     height: 250px;
     text-align: center;
-    font-size: 120px;   
-    
-
 }
 
 .main-box {
     display: flex;
     justify-content: space-around;
-    padding-top: 40px; 
+    padding-top: 40px;
 }
 
 .main-column {
@@ -186,102 +157,77 @@
     display: block
 }
 
-/* end main */
-
-/* form */
-
-
-.form-container{
+.form-container {
     height: 600px;
-    background:  #f1f4fc;
+    background: #f1f4fc;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-.form{
+.form {
     height: 35%;
     width: 40%;
     background: #5e93d4;
     display: flex;
     align-items: center;
     border-radius: 15px;
-    justify-content:center;
+    justify-content: center;
 }
 
 form {
     display: flex;
     align-items: center;
     border-radius: 15px;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
 }
 
-.form-input{
+.form-input {
     border-radius: 15px;
-    justify-content:center;
-    font-size: 20px;
+    justify-content: center;
 }
-.form-text{
-    font-family: Roboto,Arial,sans-serif;
+
+.form-text {
     letter-spacing: 2px;
-    font-size: 25px;
     margin-bottom: 1rem;
     color: #122843;
 }
-.form-text2{
-    font-family: Roboto,Arial,sans-serif;
-    font-size: 12px;
+
+.form-text2 {
     margin-bottom: 1rem;
     color: #122843;
 }
-.form-btn{
+
+.form-btn {
     border-radius: 15px;
-    font-size: 15px;
-    
 }
+
 .form-btn button {
-    font-size: 15px;
     width: 205px;
-    font-family: Roboto,Arial,sans-serif;
-    margin-top: 10px;
     border-radius: 5px;
-    border-color:#448aff;
+    border-color: #448aff;
     background: #448aff;
-    color:  #f1f4fc;
+    color: #f1f4fc;
 }
-input{
+
+input {
     height: 20px;
     width: 205px;
-    font-family: Roboto,Arial,sans-serif;
     background: #f1f4fc;
     border-radius: 5px;
-    
 }
-.form{
+
+.form {
     height: 60%;
-    /* background: blueviolet; */
-     background:#18bfac
-    
-    
+    background: #18bfac
 }
 
-/* end form */
-
-/* team  */
-
-body {
-    margin: 0;
-}
 #team {
     background: #122843;
-
 }
 
-
 .team-top {
-   
     display: flex;
     justify-content: space-between;
 }
@@ -289,12 +235,10 @@ body {
 .team-description {
     width: 50%;
     margin: 10px;
-    font-size: 24px;
 }
 
 .team-logo {
     width: 20%;
-    
     margin: 10px;
 }
 
@@ -320,9 +264,6 @@ body {
     padding: 5px;
 }
 
-.member-description {
-    font-size: 30px;
-}
 .team-member, .team-description {
     box-sizing: border-box;
 }
@@ -342,17 +283,14 @@ body {
 
 .member-description {
     text-align: center;
-    font-size: 40px;
     box-shadow: 0 0 15px white;
     animation: appear 5s;
-
 }
 
 .member-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-size: 3.5em;
     padding: 10px;
 }
 
@@ -361,7 +299,6 @@ body {
     transition: 2s ease-out;
 }
 
-/* animacje */
 
 .member-links>a:hover {
     color: darkmagenta;
@@ -380,7 +317,7 @@ body {
 }
 
 @keyframes appear {
-    from{
+    from {
         opacity: 0;
     }
     to {
@@ -388,19 +325,14 @@ body {
     }
 }
 
-/* end team  */
-/* footer */
-.footer{
-    background:#2b57a1;;
-    }
-    .footer-text{
+.footer {
+    background: #2b57a1;
+}
+
+.footer-text {
     display: flex;
-    justify-content:center;
-    font-family: theinhardt-web,sans-serif;
+    justify-content: center;
     color: aliceblue;
-    font-size: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
-    }
-
-/* end footer */
+}
