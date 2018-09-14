@@ -67,7 +67,6 @@ h1, h2, h3 {
     margin-right: 0;
     background-color: #2b57a1;
     display: flex;
-
 }
 
 .hero-left {
@@ -100,8 +99,7 @@ h1, h2, h3 {
     background: white;
     padding: 5px 20px;
     border-radius: 10px;
-    color: black;
-   
+    color: black; 
 }
 
 .hero-right {
@@ -150,12 +148,6 @@ h1, h2, h3 {
     color: lightblue;
 }
 
-.main-title {
-    background: rgb(221, 152, 152);
-    height: 250px;
-    text-align: center;
-}
-
 .main-box {
     display: flex;
     justify-content: space-around;
@@ -168,7 +160,19 @@ h1, h2, h3 {
 }
 
 .main-icon {
-    display: block
+    height: 200px;
+    width: 400px;
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+.main-text {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    color: #726d87;
+    letter-spacing: -.015em;
+    line-height: 1.3em;
 }
 
 .form-container {
