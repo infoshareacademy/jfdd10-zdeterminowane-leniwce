@@ -188,24 +188,40 @@ body {
 /* main */
 
 .main-container {
-    height: 800px;
-}
 
-.main-title {
-    text-align: center;
+    background-color: #f1f4fc;
+    height: 500px;
 }
+    
 
 .main-box {
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 30px; 
 }
 
 .main-column {
-    text-align: center;
+    margin: auto;
+
 }
 
 .main-icon {
-    display: block
+    color: #726d87; 
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;   
+}
+
+.main-text {
+    width: 350px;
+    height: 300px;
+    font-family: theinhardt-web,sans-serif;
+    text-align: center;
+    color: #726d87;
+    font-size: 19px;
+    letter-spacing: -.015em;
+    line-height: 1.7em;
 }
 
 /* end main */
