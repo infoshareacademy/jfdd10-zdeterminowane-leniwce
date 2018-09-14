@@ -289,10 +289,12 @@ input {
     box-sizing: border-box;
 } */
 
-.member-img-container, .member-description, .member-links {
-    box-sizing: border-box;
+.member-img-container /*, .member-description, .member-links*/ {
+    /* box-sizing: border-box; */
+    border-radius: 50%;
     max-width: 100%;
     margin-bottom: 5px; 
+    border: solid 10px #2b57a1
 }
 
 /* .member-img-container {
