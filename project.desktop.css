@@ -282,7 +282,9 @@ input {
 .team-member {
     margin: 10px;
     max-width: 20%;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); */
+   /* border: solid 10px #2b57a1;
+    border-radius: 5%; */
 }
 
 /*.team-member, .team-description {
@@ -294,7 +296,7 @@ input {
     border-radius: 50%;
     max-width: 100%;
     margin-bottom: 5px; 
-    border: solid 10px #2b57a1
+    border: solid 10px #2b57a1;
 }
 
 /* .member-img-container {
