@@ -207,11 +207,7 @@ form {
     margin-top: 13px;
     margin-bottom: 1rem;
     color: #122843;
-    padding-top: 23px;
-}
-.form-text__input{
-    margin-left: 75px;
-    margin-top: 50px;
+    
 }
 
 .form-text2 {
@@ -240,7 +236,7 @@ input {
 
 .form {
     height: 60%;
-    background: #18bfac
+    background: #18bfac;
 }
 
 
