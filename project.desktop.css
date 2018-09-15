@@ -67,7 +67,6 @@ h1, h2, h3 {
     margin-right: 0;
     background-color: #2b57a1;
     display: flex;
-
 }
 
 .hero-left {
@@ -96,12 +95,12 @@ h1, h2, h3 {
     margin-top: 20px;
     text-align: center;
 }
+
 .hero-button__color {
     background: white;
     padding: 5px 20px;
     border-radius: 10px;
     color: black;
-   
 }
 
 .hero-right {
@@ -207,7 +206,6 @@ form {
     margin-top: 13px;
     margin-bottom: 1rem;
     color: #122843;
-    
 }
 
 .form-text2 {
@@ -238,7 +236,6 @@ input {
     height: 60%;
     background: #18bfac;
 }
-
 
 .team-top {
     display: flex;
@@ -289,7 +286,6 @@ input {
 }
 
 .member-img-container {
-    
     box-shadow: 0 0 20px whitesmoke
 }
 
@@ -313,7 +309,6 @@ input {
     color: black;
     transition: 2s ease-out;
 }
-
 
 .member-links>a:hover {
     color: darkmagenta;
