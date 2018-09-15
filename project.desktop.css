@@ -273,6 +273,7 @@ input {
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 120px;
 }
 
 .team-member {

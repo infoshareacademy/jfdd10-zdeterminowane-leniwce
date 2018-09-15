@@ -148,6 +148,7 @@
     .main-icon {
         display: block
     }
+    .main-text{}
     .form-container {
         height: 250px;
         background: #18bfac;
@@ -173,8 +174,11 @@
         letter-spacing: 2px;
         color: #122843;
         text-align: center;
-       
-
+        padding-top: 11px;
+    }
+    .form-text__input{
+        margin-left: 76px;
+        margin-top: 28px;
     }
     .form-text2 {
         margin-bottom: 1rem;
@@ -230,7 +234,6 @@
     }
     .team-member {
         margin: 10px;
-        max-width: 20%;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     }
     .team-member, .team-description {
@@ -253,7 +256,7 @@
         margin-top: 5px;
     }
     .member-links {
-        /* display: flex; */
+        text-align: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding: 10px;
@@ -287,8 +290,7 @@
         background: #2b57a1;
     }
     .footer-text {
-        /* display: flex; */
-        justify-content: center;
+        text-align: center;
         color: aliceblue;
         padding-top: 30px;
         padding-bottom: 30px;
