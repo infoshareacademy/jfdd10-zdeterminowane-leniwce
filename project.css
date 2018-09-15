@@ -1,7 +1,7 @@
 @media (max-width: 375px) {
     body {
         margin: 0;
-        font-family: 'Gamja Flower', cursive;
+        font-family: 'Gamja Flower', cursive; 
         font-size: 28px;
     }
     h1, h2, h3 {

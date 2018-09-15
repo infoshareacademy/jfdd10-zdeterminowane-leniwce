@@ -5,7 +5,8 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Pacifico', cursive;
+   /* font-family: 'Pacifico', cursive; */
+   font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 
@@ -218,7 +219,7 @@ form {
 }
 
 .form-btn button {
-    width: 205px;
+    width: 224px;
     border-radius: 5px;
     border-color: #448aff;
     background: #448aff;
@@ -227,7 +228,7 @@ form {
 
 input {
     height: 20px;
-    width: 205px;
+    width: 221px;
     background: #f1f4fc;
     border-radius: 5px;
 }
