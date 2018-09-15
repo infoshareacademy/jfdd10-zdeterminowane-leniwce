@@ -5,8 +5,7 @@ body {
 }
 
 h1, h2, h3 {
-   /* font-family: 'Pacifico', cursive; */
-   font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-weight: normal;
 }
 
@@ -168,7 +167,19 @@ h1, h2, h3 {
 }
 
 .main-icon {
-    display: block
+   /* display: block */
+    height: 200px;
+    width: 400px;
+    display: table-cell;
+    vertical-align: middle; 
+}
+.main-text {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    color: #726d87;
+    letter-spacing: -.015em;
+    line-height: 1.3em;
 }
 
 .form-container {
@@ -178,6 +189,7 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
+
 
 .form {
     height: 35%;
@@ -260,7 +272,7 @@ input {
     height: 100%;
     border-radius: 5%;
     box-shadow: 0 0 20px whitesmoke;
-}
+} 
 
 .team-bottom {
     display: flex;
