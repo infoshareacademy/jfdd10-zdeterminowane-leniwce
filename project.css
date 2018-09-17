@@ -1,4 +1,3 @@
-@media (max-width: 375px) {
     body {
         margin: 0;
         font-family: 'Gamja Flower', cursive; 
@@ -19,19 +18,21 @@
         right: 0;
         z-index: 9000;
         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
     }
     .logo {
         height: 80px;
         width: 120px;
-        margin-left: 135px;
+        margin: auto;
         align-self: center;
         /* display: flex; */
         justify-content: center;
         align-items: center;
+        position: relative;
     }
     .menu {
         align-items: stretch;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     .nav-item {
         background: #2b57a1;
@@ -62,24 +63,18 @@
         /* display: flex; */
     }
     .hero-left {
-        width: 50%;
         display: block;
+        text-align: center;
     }
     .hero-text {
         background: #2b57a1;
-        width: 110%;
-        margin: 20px auto 40px 50px;
+        width: 80%;
+        margin: 0 auto auto auto;
         padding: 20px;
         /* text-align: center; */
         color: #f1f4fc;
     }
-    .hero-text__small {
-        margin-left: 54px;
-        margin-top: 30px;
-    }
-    .hero-text__big {
-        margin-left: 40px;
-    }
+    
     .hero-button {
         background: #2b57a1;
         color: white;
@@ -164,7 +159,7 @@
     }
     form {
         border-radius: 15px;
-        
+        text-align: center;
     }
     .form-input {
         border-radius: 15px;
@@ -177,8 +172,10 @@
         padding-top: 11px;
     }
     .form-text__input{
-        margin-left: 76px;
-        margin-top: 28px;
+        /* margin-left: 76px;
+        margin-top: 28px; */
+        margin: auto;
+        
     }
     .form-text2 {
         margin-bottom: 1rem;
@@ -186,8 +183,9 @@
     }
     .form-btn {
         border-radius: 15px;
-        margin-top: 42px;
-        margin-left: 78px;
+        margin: auto;
+        /* margin-top: 42px;
+        margin-left: 78px; */
     }
     .form-btn button {
         width: 205px;
@@ -233,8 +231,9 @@
         padding-right: 5%;
     }
     .team-member {
-        margin: 10px;
+        margin: auto;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+        text-align: center;
     }
     .team-member, .team-description {
         box-sizing: border-box;
@@ -245,7 +244,10 @@
         margin-bottom: 5px;
     }
     .member-img-container {
-        box-shadow: 0 0 20px whitesmoke
+        box-shadow: 0 0 20px whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     .member-description {
         text-align: center;
@@ -295,4 +297,3 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
-}
