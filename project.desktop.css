@@ -167,7 +167,19 @@ h1, h2, h3 {
 }
 
 .main-icon {
-    display: block
+   /* display: block */
+    height: 200px;
+    width: 400px;
+    display: table-cell;
+    vertical-align: middle; 
+}
+.main-text {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    color: #726d87;
+    letter-spacing: -.015em;
+    line-height: 1.3em;
 }
 
 .form-container {
@@ -177,6 +189,7 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
+
 
 .form {
     height: 35%;
@@ -218,7 +231,7 @@ form {
 }
 
 .form-btn button {
-    width: 205px;
+    width: 224px;
     border-radius: 5px;
     border-color: #448aff;
     background: #448aff;
@@ -227,7 +240,7 @@ form {
 
 input {
     height: 20px;
-    width: 205px;
+    width: 221px;
     background: #f1f4fc;
     border-radius: 5px;
 }
@@ -259,7 +272,7 @@ input {
     height: 100%;
     border-radius: 5%;
     box-shadow: 0 0 20px whitesmoke;
-}
+} 
 
 .team-bottom {
     display: flex;
