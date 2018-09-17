@@ -39,7 +39,6 @@ h1, h2, h3 {
 
 .nav-item {
     background: #2b57a1;
-    ;
     display: flex;
     align-items: center;
     align-self: center;
@@ -54,7 +53,8 @@ h1, h2, h3 {
 }
 
 .nav-item:hover {
-    color: #5e9aff;
+    background: #5e9aff;
+    border-radius: 10%;
 }
 
 #hero {
