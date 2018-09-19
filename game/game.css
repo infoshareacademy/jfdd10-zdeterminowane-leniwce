@@ -1,54 +1,66 @@
-
 /* placeholder for easy layout read */
+
 body {
     box-sizing: border-box;
     margin: 0;
     color: aliceblue;
+    font-family: 'Gamja Flower', cursive; 
+    font-size: 20px;
+
 }
 
 div {
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.144);
 }
-/*  */
 
+/*  */
 
 .game-container {
     height: 800px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    grid-template-areas: 
-    'score score menu menu menu title title'
-    'score score main main main upgrades upgrades'
-    'clickarea clickarea main main main upgrades upgrades'
-    'clickarea clickarea main main main automate automate'
-    'clickarea clickarea main main main automate automate'
-    'clickarea clickarea main main main automate automate'
-    'temp temp main main main automate automate';
-
+    grid-template-areas: 'score score menu menu menu title title' 'score score main main main upgrades upgrades' 'clickarea clickarea main main main upgrades upgrades' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'temp temp main main main automate automate';
     background-color: rgba(175, 227, 240, 1);
     background-image: url(img/bgBlue.jpg);
-    
-
 }
 
 /* left part */
 
-
-
 .score-content {
     grid-area: score;
-   
+}
+
+.score-counters {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    
 }
 
 .score {
-    width: 70%;
-    height: 40%;
+    width: 100%;
+    height: 70%;
     font-size: 2em;
     text-align: center;
-    margin: auto;
+}
 
-    
+.score h3 {
+    width: 100%;
+}
+
+.score-per-second {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.score-per-second p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
 }
 
 .task-click-field {
@@ -56,7 +68,6 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .sloth-img {
@@ -77,14 +88,10 @@ div {
 
 /* center part start  */
 
-
-
 .menu {
     grid-area: menu;
     border-left: 10px solid #b4896394;
     border-right: 10px solid #b4896394;
-
-
 }
 
 .main {
@@ -92,8 +99,6 @@ div {
     border-left: 10px solid #b4896394;
     border-right: 10px solid #b4896394;
     border-top: 10px solid #b4896394;
-
-    
 }
 
 /* center part end */
@@ -101,10 +106,9 @@ div {
 /* right part start */
 
 .shop-title {
-   grid-area: title;
-   text-align: center;
-   margin: auto
-
+    grid-area: title;
+    text-align: center;
+    margin: auto
 }
 
 .upgrades {
@@ -114,8 +118,7 @@ div {
 }
 
 .automate {
-   grid-area: automate;
+    grid-area: automate;
 }
 
 /* right part end */
-
