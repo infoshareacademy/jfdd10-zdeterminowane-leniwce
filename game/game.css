@@ -22,7 +22,7 @@ div {
 
 }
 
-/* lewy obszar start */
+/* left part */
 
 
 
@@ -43,9 +43,9 @@ div {
     grid-area: temp;
 }
 
-/* lewy obszar end */
+/* left part end */
 
-/* centralny obszar start  */
+/* center part start  */
 
 
 
@@ -57,9 +57,9 @@ div {
     grid-area: main;
 }
 
-/* centralny obszar end */
+/* center part end */
 
-/* prawy obszar start */
+/* right part start */
 
 .shop-title {
    grid-area: title;
@@ -73,5 +73,5 @@ div {
    grid-area: automate;
 }
 
-/* prawy obszar end */
+/* right part end */
 
