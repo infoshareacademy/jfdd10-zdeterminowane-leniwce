@@ -4,7 +4,7 @@ body {
     margin: 0;
     color: aliceblue;
     font-family: 'Gamja Flower', cursive; 
-    font-size: 20px;
+    
 
 }
 /* placeholder for easy layout read */
@@ -93,6 +93,7 @@ div {
     grid-area: menu;
     border-left: 10px solid #b4896394;
     border-right: 10px solid #b4896394;
+    text-align: center;
 }
 
 .main {
@@ -116,10 +117,14 @@ div {
     grid-area: upgrades;
     border-top: 10px solid #b4896394;
     border-bottom: 10px solid #b4896394;
+    line-height: 0;
+
 }
 
 .automate {
     grid-area: automate;
+    line-height: 0;
+
 }
 
 /* right part end */
