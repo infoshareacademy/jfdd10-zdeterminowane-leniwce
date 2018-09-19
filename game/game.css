@@ -1,31 +1,33 @@
+
+/* placeholder for easy layout read */
 div {
     border: 2px solid black;
 }
+/*  */
+
 
 .game-container {
-    height: 900px;
+    height: 800px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
-
-
-}
-
-/* lewy obszar start */
-
-.side-container{
-    grid-column: 1 / 3;
-    grid-row: 1 / 8 ;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    
+    grid-template-areas: 
+    'score score menu menu menu title title'
+    'score score main main main upgrades upgrades'
+    'clickarea clickarea main main main upgrades upgrades'
+    'clickarea clickarea main main main automate automate'
+    'clickarea clickarea main main main automate automate'
+    'clickarea clickarea main main main automate automate'
+    'temp temp main main main automate automate';
 
 }
+
+/* left part */
+
+
 
 .score-content {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3 ;
+    grid-area: score
 }
 
 .score {
@@ -33,75 +35,43 @@ div {
     height: 50%;
 }
 
-.active-content {
-    grid-column: 1 / 3;
-    grid-row: 3 / 7 ;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-}
-
 .task-click-field {
-    grid-column: 1 / 3;
-    grid-row: 1 / 5 ;
+    grid-area: clickarea;
 }
-
-
 
 .temp-content {
-    grid-column: 1 / 3;
-    grid-row: 7 / 8 ;
+    grid-area: temp;
 }
 
-/* lewy obszar end */
+/* left part end */
 
-/* centralny obszar start  */
+/* center part start  */
 
-.main-container {
-    grid-column: 3 / 6;
-    grid-row: 1 / 8 ;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
 
-}
 
 .menu {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
+    grid-area: menu;
 }
 
 .main {
-    grid-column: 1 / 4;
-    grid-row: 2 / 8;
+    grid-area: main;
 }
 
-/* centralny obszar end */
+/* center part end */
 
-/* prawy obszar start */
-
-.shop-container {
-    grid-column: 6 / 8;
-    grid-row: 1 / 8;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-}
+/* right part start */
 
 .shop-title {
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
+   grid-area: title;
 }
 
 .upgrades {
-    grid-column: 1 / 3;
-    grid-row: 2 / 4;
+    grid-area: upgrades;
 }
 
 .automate {
-    grid-column: 1 / 3;
-    grid-row: 4 / 8;
+   grid-area: automate;
 }
 
-/* prawy obszar end */
+/* right part end */
 
