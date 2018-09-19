@@ -1,5 +1,10 @@
 
 /* placeholder for easy layout read */
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 div {
     border: 2px solid black;
 }
@@ -20,6 +25,8 @@ div {
     'clickarea clickarea main main main automate automate'
     'temp temp main main main automate automate';
 
+    background-color: rgba(175, 227, 240, 1);
+
 }
 
 /* left part */
@@ -37,6 +44,19 @@ div {
 
 .task-click-field {
     grid-area: clickarea;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sloth-img {
+    height: 50%;
+    width: 25%
+}
+
+.click-me {
+    width: 45%;
+    height: 50%
 }
 
 .temp-content {
@@ -63,6 +83,9 @@ div {
 
 .shop-title {
    grid-area: title;
+   text-align: center;
+   margin: auto
+
 }
 
 .upgrades {
