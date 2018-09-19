@@ -1,4 +1,3 @@
-/* placeholder for easy layout read */
 
 body {
     box-sizing: border-box;
@@ -8,6 +7,7 @@ body {
     font-size: 20px;
 
 }
+/* placeholder for easy layout read */
 
 div {
     border: 2px solid rgba(0, 0, 0, 0.144);
@@ -15,6 +15,7 @@ div {
 
 /*  */
 
+/*vvv touching these breaks the layout vvv*/
 .game-container {
     height: 800px;
     display: grid;
