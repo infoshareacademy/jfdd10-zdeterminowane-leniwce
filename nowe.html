@@ -13,13 +13,23 @@
   width: 100px;
   background: darkgreen;
   color:cornsilk;
+  text-align: center;
+  /* border-radius: 50%; */
 }
 </style>
-
-
-
 <script>
-    document.querySelector('.clock')
+////////////////////// powyzej minutu stworz 2 pomocnicze zmienne i min(timeout/60 ) i sec 
+  var timeout = 90  
+  document.querySelector('.clock')
+  document.querySelector('.clock').innerHTML ='Koniec Gry Za ' + timeout/60 + ' sec'
+
+  var interval = setInterval(function (){
+    document.querySelector('.clock').innerHTML ='Koniec Gry Za ' + (--timeout) + ' sec'
+    if (timeout < 1 ){
+      clearInterval(interval);
+    }
+  },1000);
+
     
 
 

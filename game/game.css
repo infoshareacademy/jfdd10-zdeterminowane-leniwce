@@ -1,0 +1,77 @@
+
+/* placeholder for easy layout read */
+div {
+    border: 2px solid black;
+}
+/*  */
+
+
+.game-container {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+    'score score menu menu menu title title'
+    'score score main main main upgrades upgrades'
+    'clickarea clickarea main main main upgrades upgrades'
+    'clickarea clickarea main main main automate automate'
+    'clickarea clickarea main main main automate automate'
+    'clickarea clickarea main main main automate automate'
+    'temp temp main main main automate automate';
+
+}
+
+/* left part */
+
+
+
+.score-content {
+    grid-area: score
+}
+
+.score {
+    width: 100%;
+    height: 50%;
+}
+
+.task-click-field {
+    grid-area: clickarea;
+}
+
+.temp-content {
+    grid-area: temp;
+}
+
+/* left part end */
+
+/* center part start  */
+
+
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+/* center part end */
+
+/* right part start */
+
+.shop-title {
+   grid-area: title;
+}
+
+.upgrades {
+    grid-area: upgrades;
+}
+
+.automate {
+   grid-area: automate;
+}
+
+/* right part end */
+
