@@ -8,6 +8,7 @@ clickField.addEventListener('click', function () {
     clickField.classList.add('slide-out');
     setTimeout(function () {
         clickField.classList.remove('slide-out');
+        change_score(1);
     }, 100)
 
 })
