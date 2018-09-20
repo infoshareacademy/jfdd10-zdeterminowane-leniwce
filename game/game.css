@@ -81,6 +81,7 @@ body {
 }
 
 .click-me {
+    position: relative;
     width: 45%;
     height: 50%;
     background-image: url(img/clicknote.svg);
@@ -89,6 +90,22 @@ body {
     text-align: center;
     color: black;
     font-size: 3.5em;
+    user-select: none;
+}
+
+.slide-out {
+    animation: slideout 0.1s;
+}
+
+@keyframes slideout {
+    from {
+
+        opacity: 1;
+    }
+    to {
+        left: 100px;
+        opacity: 0;
+    }
 }
 
 .temp-content {
@@ -173,7 +190,6 @@ body {
     color: black;
     font-size: 1.2em;
     padding: 1% 0 1% 3%;
-
 }
 
 /* right part end */
