@@ -1,17 +1,11 @@
-
 body {
     box-sizing: border-box;
     margin: 0;
     color: aliceblue;
-    font-family: 'Gamja Flower', cursive; 
-    
-
+    font-family: 'Gamja Flower', cursive;
 }
+
 /* placeholder for easy layout read */
-
-div {
-    border: 2px solid rgba(0, 0, 0, 0.144);
-}
 
 /*  */
 
@@ -20,6 +14,7 @@ div {
 }
 
 /*vvv touching these breaks the layout vvv*/
+
 .game-container {
     height: 900px;
     display: grid;
@@ -27,17 +22,15 @@ div {
     grid-template-rows: repeat(7, 1fr);
     grid-template-areas: 'score score menu menu menu title title' 'score score main main main upgrades upgrades' 'clickarea clickarea main main main upgrades upgrades' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'temp temp main main main automate automate';
     background-color: rgba(40, 106, 141, 0.6);
-    
     grid-column-gap: 1%;
-    grid-row-gap: 1%
+    grid-row-gap: 1%;
 }
 
 /* left part */
 
 .score-content {
     grid-area: score;
-        background-image: url(img/bgBlue.jpg);
-
+    background-image: url(img/bgBlue.jpg);
 }
 
 .score-counters {
@@ -45,7 +38,6 @@ div {
     height: 70%;
     text-align: center;
     margin: auto;
-    
 }
 
 .score {
@@ -70,7 +62,6 @@ div {
     width: 100%;
     text-align: center;
     margin: 0;
-
 }
 
 .task-click-field {
@@ -78,7 +69,6 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .sloth-img {
@@ -99,13 +89,11 @@ div {
     text-align: center;
     color: black;
     font-size: 3.5em;
-
 }
 
 .temp-content {
     grid-area: temp;
     background-image: url(img/bgBlue.jpg);
-
 }
 
 /* left part end */
@@ -117,14 +105,11 @@ div {
     font-size: 2em;
     text-align: center;
     background-image: url(img/bgBlue.jpg);
-
-
 }
 
 .main {
     grid-area: main;
     background-image: url(img/bgBlue.jpg);
-    
 }
 
 .end-screen {
@@ -136,7 +121,14 @@ div {
     margin: auto;
     background-image: url(img/note.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
+}
+
+.end-screen-text {
+    text-align: center;
+    padding: 10%;
+
+    line-height: 0.5em;
 }
 
 /* center part end */
@@ -147,9 +139,7 @@ div {
     grid-area: title;
     text-align: center;
     font-size: 4em;
-    
     background-image: url(img/bgBlue.jpg);
-
 }
 
 .upgrades {
@@ -157,23 +147,17 @@ div {
     font-size: 1.2em;
     line-height: 0;
     background-image: url(img/bgBlue.jpg);
-
-
 }
 
 .upgrade-item {
     display: inline-block;
-
 }
 
 .automate {
     grid-area: automate;
     line-height: 0;
     font-size: 1.2em;
-
     background-image: url(img/bgBlue.jpg);
-
-
 }
 
 /* right part end */
