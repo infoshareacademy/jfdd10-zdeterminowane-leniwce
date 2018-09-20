@@ -161,8 +161,19 @@ body {
 .automate {
     grid-area: automate;
     line-height: 0;
-    font-size: 1.2em;
     background-image: url(img/bgBlue.jpg);
+}
+
+.automate-item {
+    background-image: url(img/upgradeBgImg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 20%;
+    color: black;
+    font-size: 1.2em;
+    padding: 1% 0 1% 3%;
+
 }
 
 /* right part end */
