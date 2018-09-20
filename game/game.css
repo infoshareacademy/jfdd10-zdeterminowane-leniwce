@@ -83,7 +83,11 @@ div {
 
 .sloth-img {
     height: 50%;
-    width: 25%;
+    width: 40%;
+    background-image: url(img/sloth.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translate(2em)
 }
 
 .click-me {
