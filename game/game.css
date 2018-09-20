@@ -127,7 +127,6 @@ body {
 .end-screen-text {
     text-align: center;
     padding: 10%;
-
     line-height: 0.5em;
 }
 
@@ -151,6 +150,12 @@ body {
 
 .upgrade-item {
     display: inline-block;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: black;
+    border-image: url(img/frameBorder.png);
+    border-image-slice: 4;
+    border-image-width: 10px;
 }
 
 .automate {
