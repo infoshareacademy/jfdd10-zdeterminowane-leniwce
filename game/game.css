@@ -1,60 +1,133 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Gamja Flower', cursive;
+}
 
 /* placeholder for easy layout read */
-div {
-    border: 2px solid black;
-}
+
 /*  */
 
+#app {
+    background-image: url(img/Scrum\ Board\ Example.jpg);
+}
+
+/*vvv touching these breaks the layout vvv*/
 
 .game-container {
-    height: 800px;
+    height: 900px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    grid-template-areas: 
-    'score score menu menu menu title title'
-    'score score main main main upgrades upgrades'
-    'clickarea clickarea main main main upgrades upgrades'
-    'clickarea clickarea main main main automate automate'
-    'clickarea clickarea main main main automate automate'
-    'clickarea clickarea main main main automate automate'
-    'temp temp main main main automate automate';
-
+    grid-template-areas: 'score score menu menu menu title title' 'score score main main main upgrades upgrades' 'clickarea clickarea main main main upgrades upgrades' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'temp temp main main main automate automate';
+    background-color: rgba(40, 106, 141, 0.6);
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
 }
 
 /* left part */
 
-
-
 .score-content {
-    grid-area: score
+    grid-area: score;
+    background-image: url(img/bgBlue.jpg);
+}
+
+.score-counters {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
 }
 
 .score {
     width: 100%;
-    height: 50%;
+    height: 70%;
+    font-size: 3em;
+    text-align: center;
+}
+
+.score h3 {
+    width: 100%;
+}
+
+.score-per-second {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.score-per-second p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
 }
 
 .task-click-field {
     grid-area: clickarea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sloth-img {
+    height: 50%;
+    width: 40%;
+    background-image: url(img/sloth.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translate(2em)
+}
+
+.click-me {
+    width: 45%;
+    height: 50%;
+    background-image: url(img/clicknote.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: black;
+    font-size: 3.5em;
 }
 
 .temp-content {
     grid-area: temp;
+    background-image: url(img/bgBlue.jpg);
 }
 
 /* left part end */
 
 /* center part start  */
 
-
-
 .menu {
     grid-area: menu;
+    font-size: 2em;
+    text-align: center;
+    background-image: url(img/bgBlue.jpg);
 }
 
 .main {
     grid-area: main;
+    background-image: url(img/bgBlue.jpg);
+}
+
+.end-screen {
+    width: 90%;
+    height: 90%;
+    color: black;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    background-image: url(img/note.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.end-screen-text {
+    text-align: center;
+    padding: 10%;
+    line-height: 0.5em;
 }
 
 /* center part end */
@@ -62,16 +135,45 @@ div {
 /* right part start */
 
 .shop-title {
-   grid-area: title;
+    grid-area: title;
+    text-align: center;
+    font-size: 4em;
+    background-image: url(img/bgBlue.jpg);
 }
 
 .upgrades {
     grid-area: upgrades;
+    font-size: 1.2em;
+    line-height: 0;
+    background-image: url(img/bgBlue.jpg);
+}
+
+.upgrade-item {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: black;
+    border-image: url(img/frameBorder.png);
+    border-image-slice: 4;
+    border-image-width: 10px;
 }
 
 .automate {
-   grid-area: automate;
+    grid-area: automate;
+    line-height: 0;
+    background-image: url(img/bgBlue.jpg);
+}
+
+.automate-item {
+    background-image: url(img/upgradeBgImg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 20%;
+    color: black;
+    font-size: 1.2em;
+    padding: 1% 0 1% 3%;
+
 }
 
 /* right part end */
-
