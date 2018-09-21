@@ -7,6 +7,8 @@ var count = 0;
 var power = 10;
 var automateOneTotal = 0;
 
+// TODO make numbers floor
+
 automateOneField.addEventListener('click', function () {
     if (price <= score) {
         count++;
