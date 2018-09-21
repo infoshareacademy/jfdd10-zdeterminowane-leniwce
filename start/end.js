@@ -1,12 +1,14 @@
-var timeout = 30
-undefined
-document.querySelector('.aalamkotaa')
-<pre class=​"aalamkotaa" style>​…​</pre>​
-document.querySelector('.aalamkotaa').innerHTML =  'Zostalo: ' + timeout + ' sek';
-"Zostalo: 30 sek"
-setInterval( function(){ document.querySelector('.aalamkotaa').innerHTML =  'Zostalo: ' + (timeout--) + ' sek'; }, 1000 ) 
-10
-var interval = setInterval( function()
-  { if( timeout < 1 )
-  { clearInterval(interval); } 
-document.querySelector('.aalamkotaa').innerHTML =  'Zostalo: ' + (timeout--) + ' sek'; }, 1000 ) 
+'use-strict'
+
+var timeout = 30  
+var clock = document.querySelector('.clock')
+var clock = document.querySelector('.clock')
+clock.innerHTML ='TIME LEFT: ' + timeout + ' seconds'
+
+var interval = setInterval(function (){
+  var clock = document.querySelector('.clock')
+  clock.innerHTML ='TIME LEFT ' + (--timeout) + ' seconds'
+  if (timeout < 1 ){
+    clearInterval(interval);
+  }
+},1000);
