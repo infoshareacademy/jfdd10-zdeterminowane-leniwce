@@ -7,13 +7,12 @@ var count = 0;
 var power = 10;
 var automateOneTotal = 0;
 
-// TODO make numbers floor
 
 automateOneField.addEventListener('click', function () {
     if (price <= score) {
         count++;
         score = score - price;
-        price = Math.floor(price * 1.5);
+        price = Math.floor(price * 2);
 
         document.querySelector(".auto-one-cost").innerHTML = price;
         document.querySelector(".auto-one-count").innerHTML = count;
@@ -28,7 +27,11 @@ automateOneField.addEventListener('click', function () {
 });
 
 setInterval(function () {
-    
+
+    var autoOneCost = parseInt(document.querySelector(".auto-one-cost").innerHTML);
+
+    autoOneCost <= score ? automateOneField.classList.add('available') : automateOneField.classList.remove('available');
+
     automateOneTotal = power * count;
     score += automateOneTotal;
 

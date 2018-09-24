@@ -192,4 +192,8 @@ body {
     padding: 1% 0 1% 3%;
 }
 
+.available {
+    color: green;
+}
+
 /* right part end */
