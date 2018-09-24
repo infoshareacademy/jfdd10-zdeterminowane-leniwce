@@ -11,7 +11,7 @@ var interval = setInterval(function (){
   countClock.innerHTML =(--timeout);
   if (timeout < 1 ){
     clearInterval(interval);
-    popUp.classList.add('.pop-up-continer-active')
+    // popUp.classList.add('.pop-up-continer-active')
   }
 
 },1000);

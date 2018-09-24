@@ -4,7 +4,11 @@
 var clickUpgradeField = document.querySelector(".click-upgrade.upgrade-item")
 
 clickUpgradeField.addEventListener('click', function () {
-    clickUpgradeScore(5);
+    if (score < 20) {
+        return;
+    }
+    clickUpgradeScore(4);
+    change_score(-20);
 
     // animation
 
