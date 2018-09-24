@@ -4,8 +4,8 @@
 var clickField = document.querySelector('.click-me')
 
 clickField.addEventListener('click', function () {
-    change_score();
-
+    console.log(upgrade);
+    change_score(1 + upgrade);
     // animation
     clickField.classList.add('slide-out');
     setTimeout(function () {

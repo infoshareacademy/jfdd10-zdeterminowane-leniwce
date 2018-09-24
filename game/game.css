@@ -145,6 +145,7 @@ body {
     text-align: center;
     padding: 10%;
     line-height: 0.5em;
+    visibility: hidden;
 }
 
 /* center part end */
