@@ -3,7 +3,7 @@ var formContainer = document.querySelector('.form-container')
 
 
 
-formBtn.addEventListener('click', sendForm);
+// formBtn.addEventListener('click', sendForm);
 
 
 function sendForm() {
