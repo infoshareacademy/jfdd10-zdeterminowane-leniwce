@@ -13,7 +13,7 @@ automateOneField.addEventListener('click', function () {
     if (price <= score) {
         count++;
         score = score - price;
-        price = price * 1.5;
+        price = Math.floor(price * 1.5);
 
         document.querySelector(".auto-one-cost").innerHTML = price;
         document.querySelector(".auto-one-count").innerHTML = count;
