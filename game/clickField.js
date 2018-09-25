@@ -2,12 +2,12 @@
 
 
 var clickField = document.querySelector('.click-me')
-var timesClicked = 0;
+var scoreOnClick = 0;
 
 clickField.addEventListener('click', function () {
     change_score(1 + upgrade);
-    timesClicked++;
-    console.log(timesClicked);
+    scoreOnClick += (1 + upgrade);
+    console.log(scoreOnClick);
 
     // animation
     clickField.classList.add('slide-out');
