@@ -36,5 +36,8 @@ setInterval(function () {
     score += automateOneTotal;
 
     document.querySelector(".current-score").innerHTML = score;
+    document.querySelector(".current-score-per-second").innerHTML = automateOneTotal + timesClicked;
+    timesClicked = 0;
+
 
 }, 1000)

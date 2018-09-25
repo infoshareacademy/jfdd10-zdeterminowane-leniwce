@@ -3,6 +3,9 @@ body {
     margin: 0;
     color: aliceblue;
     font-family: 'Gamja Flower', cursive;
+    user-select: none;
+    /* makes text unselectable, leave it be, please */
+
 }
 
 /* placeholder for easy layout read */
@@ -90,7 +93,6 @@ body {
     text-align: center;
     color: black;
     font-size: 3.5em;
-    user-select: none;
 }
 
 .slide-out {
