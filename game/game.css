@@ -181,6 +181,10 @@ body {
     border-image-width: 10px;
 }
 
+.upgrade-available {
+    color: green;
+}
+
 .automate {
     grid-area: automate;
     line-height: 0;
