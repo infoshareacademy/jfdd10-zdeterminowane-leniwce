@@ -1,4 +1,5 @@
 var score = 0;
+var scoreOnClick = 0;
 
 function change_score(mod) {
     score += mod;
@@ -10,6 +11,7 @@ var clickField = document.querySelector('.click-me')
 
 clickField.addEventListener('click', function () {
     change_score(1 + upgrade);
+    scoreOnClick += (1 + upgrade)
     clickField.classList.add('slide-out');
     setTimeout(function () {
         clickField.classList.remove('slide-out');
