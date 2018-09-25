@@ -18,6 +18,7 @@ clickField.addEventListener('click', function () {
 })
 
 var upgrade = 0;
+var price = 20;
 
 function clickUpgradeScore(modify) {
     upgrade += modify;
@@ -26,9 +27,10 @@ function clickUpgradeScore(modify) {
 var clickUpgradeField = document.querySelector(".click-upgrade.upgrade-item")
 
 clickUpgradeField.addEventListener('click', function () {
-    if (score < 20) {
+    if (score < price) {
         return;
     }
-    clickUpgradeScore(9);
-    change_score(-20);
+    clickUpgradeScore(4);
+    change_score(-price);
+    price += 20;
 })
