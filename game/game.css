@@ -147,7 +147,11 @@ body {
     line-height: 0.5em;
     visibility: hidden;
 }
-
+.end-screen-text-Active{
+    text-align: center;
+    padding: 10%;
+    line-height: 0.5em;
+}
 /* center part end */
 
 /* right part start */
