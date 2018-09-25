@@ -4,6 +4,10 @@ body {
     color: aliceblue;
     font-family: 'Gamja Flower', cursive;
     user-select: none;
+    min-height: 100vh;
+    overflow: hidden;
+
+
     /* makes text unselectable, leave it be, please */
 
 }
@@ -19,14 +23,13 @@ body {
 /*vvv touching these breaks the layout vvv*/
 
 .game-container {
-    height: 900px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-template-areas: 'score score menu menu menu title title' 'score score main main main upgrades upgrades' 'clickarea clickarea main main main upgrades upgrades' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'clickarea clickarea main main main automate automate' 'temp temp main main main automate automate';
     background-color: rgba(40, 106, 141, 0.6);
-    grid-column-gap: 1%;
-    grid-row-gap: 1%;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
 }
 
 /* left part */
