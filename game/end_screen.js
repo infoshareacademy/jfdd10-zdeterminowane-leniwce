@@ -18,4 +18,5 @@ var interval = setInterval(function (){
     clickField.removeEventListener('click', handleCardClick)
   }
 
+  
 },1000);
