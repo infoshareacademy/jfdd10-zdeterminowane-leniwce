@@ -7,9 +7,7 @@ function change_score(mod) {
 }
 
 
-var clickField = document.querySelector('.click-me')
-
-clickField.addEventListener('click', function () {
+function handleCardClick() {
     change_score(1 + upgrade);
     scoreOnClick += (1 + upgrade)
     clickField.classList.add('slide-out');
@@ -17,7 +15,11 @@ clickField.addEventListener('click', function () {
         clickField.classList.remove('slide-out');
     }, 100)
 
-})
+}
+
+var clickField = document.querySelector('.click-me')
+
+clickField.addEventListener('click', handleCardClick)
 
 
 var score = parseInt(document.querySelector(".current-score").innerText);
