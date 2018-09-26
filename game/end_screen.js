@@ -1,6 +1,6 @@
 'use-strict'
 
-var timeout = 3;  
+var timeout = 30;  
 var countClock = document.querySelector('.current-time');
 countClock.innerHTML = timeout;
 
