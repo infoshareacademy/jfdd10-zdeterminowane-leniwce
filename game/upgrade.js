@@ -23,11 +23,12 @@ clickField.addEventListener('click', function () {
 var score = parseInt(document.querySelector(".current-score").innerText);
 var upgrade = 0;
 var price = 20;
-var power = 10;
 var upgradeCount = 0;
 
 
 var clickUpgradeField = document.querySelector(".click-upgrade.upgrade-item")
+
+var upgradeField = document.querySelector('.click-upgrade');
 
 clickUpgradeField.addEventListener('click', function () {
     if (score < price) {
@@ -44,24 +45,3 @@ clickUpgradeField.addEventListener('click', function () {
 
 
 
-var automateOneField = document.querySelector('.auto-one');
-var upgradeField = document.querySelector('.click-upgrade');
-var upgradeOneTotal = 0;
-
-var upgradePower = 10;
-
-setInterval(function () {
-
-    var upgradePrice = parseInt(document.querySelector(".click-up-cost").innerHTML);
-
-    upgradePrice <= score ? upgradeField.classList.add('upgrade-available') : upgradeField.classList.remove('upgrade-available');
-
-    upgradeOneTotal = upgradePower * upgradeCount;
-    score += upgradeOneTotal;
-
-    document.querySelector(".current-score").innerHTML = score;
-    document.querySelector(".current-score-per-second").innerHTML = upgradeOneTotal + scoreOnClick;
-    scoreOnClick = 0;
-
-
-}, 1000)
