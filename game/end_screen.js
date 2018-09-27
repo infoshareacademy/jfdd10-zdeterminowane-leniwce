@@ -14,8 +14,7 @@ var interval = setInterval(function (){
     popUp.classList.remove('end-screen-text')
     popUp.classList.add('end-screen-text-Active')
     document.querySelector('.final-score').innerHTML = score;
-    
-    clickField.removeEventListener('click', handleCardClick)
+    cleanupUpgrades()
   }
 
   

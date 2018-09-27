@@ -1,4 +1,4 @@
-(function () {
+var cleanupUpgrades = (function () {
     function change_score(mod) {
         score += mod;
         document.querySelector(".current-score").innerHTML = score;
@@ -38,4 +38,8 @@
         document.querySelector('.click-up-cost').innerText = price;
         document.querySelector('.click-up-count').innerText = upgradeCount;
     })    
+
+    return function () {
+        clickField.removeEventListener('click', handleCardClick)
+    }
 })()
