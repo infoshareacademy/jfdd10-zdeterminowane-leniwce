@@ -24,7 +24,7 @@
     {
         display: block;
         position: relative;
-        top: -100px;
+        top: -60px;
         left: 50px;
   
         z-index: 1;
@@ -156,6 +156,7 @@
     }
     .menu {
         align-items: stretch;
+        display: none
         /* visibility: hidden; */
     }
     .nav-item {
