@@ -109,6 +109,7 @@
         background: #2b57a1;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
+        opacity: 0.9;
   
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
