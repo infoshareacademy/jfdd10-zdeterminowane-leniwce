@@ -269,7 +269,9 @@
     .main-icon {
         display: block
     }
-    .main-text{}
+    .main-text{
+        color: black;
+    }
     .form-container {
         height: 250px;
         background: #18bfac;
