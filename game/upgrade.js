@@ -31,7 +31,7 @@ var cleanupUpgrades = (function () {
             return;
         }
         upgradeCount += 1;
-        upgrade += 4;
+        upgrade += 5;
         change_score(-price);
         price += 20;
     
