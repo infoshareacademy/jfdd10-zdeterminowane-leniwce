@@ -379,11 +379,14 @@
         text-align: center;
         box-shadow: 0 0 15px white;
         animation: appear 5s;
-        font-size: 22px;
+        font-size: 1.5em;
+        color: black;
         line-height: 1.1;
         margin-top: 5px;
     }
     .member-links {
+        font-size: 1.5em;
+
         text-align: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
