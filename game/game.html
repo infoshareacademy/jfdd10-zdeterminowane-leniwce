@@ -59,7 +59,7 @@
                     <div class='end-screen-text'>
                         <p> GAME OVER </p>
                         <p> ¯\_(ツ)_/¯ </p>
-                        <p>Final Score: <span class='final-score'>1000</span></p>
+                        <p>Final Score: <span class='final-score'></span></p>
                     </div>
                 </div>
             </div>
@@ -88,10 +88,20 @@
 
     <!-- vvv scripts goes here vvv -->
 
+    <script>
+        var score = parseInt(document.querySelector(".current-score").innerText);
+        var scoreOnClick = 0;
+    </script>
 
-
+    <script src="automate.js"></script>
+    <script src="upgrade.js"></script>
+    <script src="end_screen.js"></script>
     <script src="game.js"></script>
+    <script src="game.js"></script>
+
+   
     <!-- ^^^ game.js always last ^^^ -->
+    <!-- ^^^ game.js ALWAYS LAST ^^^ -->
 </body>
 
 
