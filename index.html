@@ -124,16 +124,21 @@
     <div id="form">
         <div class="form-container">
             <div class="form">
-                <form>
+
+                <form action="https://formspree.io/remek87@gmail.com"
+                method="POST">
+
                     <div class="form-input">
                         <div class="form-text">
                             Let's get started
                         </div>
 
-                        <input class="form-text__input" type="text" id="uname" name="name" placeholder="Your@email.com" size="30">
+                        <input required class="form-text__input" type="email" id="uname" name="name" placeholder="Your@email.com" size="30">
                     </div>
+                    <input type="hidden" name="_next" value="game/game.html" />
+
                     <div class="form-btn">
-                        <button type="button">Sign up</button>
+                        <button type="submit">Sign up</button>
                     </div>
                 </form>
             </div>
