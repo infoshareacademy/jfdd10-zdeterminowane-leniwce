@@ -147,13 +147,14 @@
     }
     .logo {
         height: 80px;
-        width: 120px;
+        width: 115px;
         margin: auto;
         align-self: center;
         /* display: flex; */
         justify-content: center;
         align-items: center;
         position: relative;
+        border-radius: 7%;
     }
     .menu {
         align-items: stretch;

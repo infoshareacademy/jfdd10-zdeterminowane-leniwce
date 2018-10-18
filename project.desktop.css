@@ -24,12 +24,13 @@ h1, h2, h3 {
 
 .logo {
     height: 80px;
-    width: 120px;
+    width: 115px;
     margin: 20px;
     align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 7%;
 }
 
 #menu {
