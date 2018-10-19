@@ -233,14 +233,6 @@ form {
 }
 
 .form-text {
-    letter-spacing: 1,5px;
-    margin-top: 10px;
-    margin-bottom: 1rem;
-    color: #122843;
-}
-
-.form-text2 {
-    margin-bottom: 1rem;
     color: #122843;
 }
 
@@ -266,7 +258,7 @@ input {
 }
 
 .form {
-    height: 60%;
+    height: 70%;
     width: 70%;
     background: #18bfac;
 }
