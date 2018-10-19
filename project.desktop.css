@@ -130,7 +130,7 @@ h1, h2, h3 {
     height: 100%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     position: absolute;
-    transition: all 2s;
+    transition: all 4s;
 }
 
 .hero-right img:first-child {
@@ -139,7 +139,7 @@ h1, h2, h3 {
 
 .hero-right img:last-child {
     opacity: 1;
-    animation: appear 2s;
+    animation: appear 4s;
 }
 
 @keyframes appear {
