@@ -293,16 +293,17 @@ input {
 
 .team-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 120px;
 }
 
 .team-member {
-    margin: 10px;
-    max-width: 20%;
+    margin-top: 30px;
+    max-width: 17%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
 }
 
 .team-member, .team-description {
@@ -316,11 +317,14 @@ input {
 }
 
 .member-img-container {
-    box-shadow: 0 0 20px whitesmoke
+    box-shadow: 0 0 20px whitesmoke;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .member-description {
     text-align: center;
+    font-size: 30px;
     box-shadow: 0 0 15px white;
     animation: appear 5s;
     line-height: 1.1;
