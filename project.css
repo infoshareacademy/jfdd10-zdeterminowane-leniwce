@@ -189,7 +189,7 @@
         margin-left: 0;
         margin-right: 0;
         background-color: #2b57a1;
-        height: 550px;
+        height: 580px;
         /* display: flex; */
     }
     .hero-left {
@@ -278,21 +278,23 @@
         padding-top: 200px;
     }
     .main-column {
-        margin: 5px;
+        padding: 5px 50px 10px 50px;
         text-align: center;
     }
     .main-icon {
-        display: block
+        display: block;
     }
 
     .main-text{
         color: black;
     }
+
     .form-container {
         height: 250px;
         background: #18bfac;
         align-items: center;
         justify-content: center;
+        margin-top: 30px;
     }
     .form {
         height: 35%;
@@ -313,7 +315,7 @@
         letter-spacing: 2px;
         color: #122843;
         text-align: center;
-        padding: 0 15px;
+        padding: 40px 60px 30px 60px;
     }
     .form-text__input{
         /* margin-left: 76px;
