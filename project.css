@@ -146,16 +146,18 @@
         text-align: center;
     }
     .logo {
-        height: 80px;
-        width: 115px;
-        margin: auto;
+        height: 78px;
+        width: 93px;
+        /* margin: auto; */
         align-self: center;
         /* display: flex; */
         justify-content: center;
         align-items: center;
         position: relative;
-        border-radius: 7%;
+        border-radius: 14%;
+        margin: 0 20px 20px 0
     }
+
     .menu {
         align-items: stretch;
         display: none
