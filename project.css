@@ -197,15 +197,15 @@
     }
     .hero-text {
         background: #2b57a1;
-        width: 80%;
-        margin: 0 auto auto auto;
-        padding: 20px;
         /* text-align: center; */
         color: #f1f4fc;
     }
 
     .hero-text_sloth_down {
-    
+        width: 100%;
+        font-size: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
     .hero-button {
@@ -225,7 +225,7 @@
         height: 281px;
         width: 450px;
         margin: 0 auto;
-        margin-top: 70px;
+        /* margin-top: 70px; */
         color: #f1f4fc;
     }
     .hero-right img {
