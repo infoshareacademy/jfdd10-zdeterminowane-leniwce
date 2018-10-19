@@ -23,8 +23,8 @@ h1, h2, h3 {
 }
 
 .logo {
-    height: 80px;
-    width: 93px;
+    height: 120px;
+    width: 110px;
     margin: 20px 20px 20px 0;
     align-self: center;
     display: flex;
@@ -40,6 +40,7 @@ h1, h2, h3 {
 .menu {
     display: flex;
     align-items: stretch;
+    font-size: 32px;
 }
 
 .nav-item {
@@ -98,6 +99,8 @@ h1, h2, h3 {
     padding: 20px;
     text-align: center;
     color: #f1f4fc;
+    font-weight: normal;
+    
 }
 
 .hero-button {
@@ -132,6 +135,10 @@ h1, h2, h3 {
     position: absolute;
     transition: all 4s;
 }
+
+/* .hero-slider {
+    height: 1000px;
+} */
 
 .hero-right img:first-child {
     opacity: 0;
