@@ -290,19 +290,19 @@
     }
 
     .form-container {
-        height: 250px;
+        height: 460px;
         background: #18bfac;
         align-items: center;
         justify-content: center;
         margin-top: 30px;
+        font-size: 27px;
     }
     .form {
-        height: 35%;
-        width: 40%;
         background: #5e93d4;
         align-items: center;
         width: 100%
     }
+
     form {
         border-radius: 15px;
         text-align: center;
