@@ -367,8 +367,8 @@
     .team-logo-img {
         margin: 0;
         padding: 0;
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         border-radius: 5%;
         box-shadow: 0 0 20px whitesmoke;
     }
@@ -390,6 +390,8 @@
         box-sizing: border-box;
         max-width: 100%;
         margin-bottom: 5px;
+        height: 30%;
+        width: 40%;
     }
     .member-img-container {
         box-shadow: 0 0 20px whitesmoke;
