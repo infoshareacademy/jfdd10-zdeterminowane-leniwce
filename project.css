@@ -190,6 +190,7 @@
         margin-right: 0;
         background-color: #2b57a1;
         height: 580px;
+        padding-top: 20px;
         /* display: flex; */
     }
     .hero-left {
