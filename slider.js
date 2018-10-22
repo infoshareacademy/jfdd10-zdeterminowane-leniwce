@@ -1,7 +1,7 @@
 (function () {
     setInterval(function () {
-        var container = document.querySelector('.hero-right');
+        var container = document.querySelector('.hero-slider');
         var img = container.querySelector('img:first-child');
         container.appendChild(img);
-    }, 3000)
+    }, 7000)
 })()

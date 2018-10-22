@@ -1,133 +1,92 @@
-    body
-    {
+    body {
         margin: 0;
         padding: 0;
         color: #cdcdcd;
         font-family: 'Gamja Flower', cursive;
         font-size: 28px;
     }
-    
-    a
-    {
+    a {
         text-decoration: none;
         color: #ffffff;
-  
         transition: color 0.3s ease;
     }
-
-    a:hover
-    {
+    a:hover {
         color: tomato;
     }
-
-    #menuToggle
-    {
+    #menuToggle {
         display: block;
         position: relative;
-        top: -60px;
+        top: -80px;
         left: 50px;
-  
         z-index: 1;
-  
         -webkit-user-select: none;
         user-select: none;
     }
-
-    #menuToggle input
-    {
+    #menuToggle input {
         display: block;
         width: 40px;
         height: 32px;
         position: absolute;
         top: -7px;
         left: -5px;
-        
         cursor: pointer;
-        
         opacity: 0;
         z-index: 2;
-        
         -webkit-touch-callout: none;
     }
-    
-    #menuToggle span
-    {
+    #menuToggle span {
         display: block;
         width: 33px;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        
         background: #cdcdcd;
         border-radius: 3px;
-        
         z-index: 1;
-        
         transform-origin: 4px 0px;
-        
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                     background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                     opacity 0.55s ease;
     }
-
-    #menuToggle span:first-child
-    {
+    #menuToggle span:first-child {
         transform-origin: 0% 0%;
     }
-
-    #menuToggle span:nth-last-child(2)
-    {
+    #menuToggle span:nth-last-child(2) {
         transform-origin: 0% 100%;
     }
-
-    #menuToggle input:checked ~ span
-    {
+    #menuToggle input:checked ~ span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
         background: #232323;
     }
-
-    #menuToggle input:checked ~ span:nth-last-child(3)
-    {
+    #menuToggle input:checked ~ span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
     }
-
-    #menuToggle input:checked ~ span:nth-last-child(2)
-    {
+    #menuToggle input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px);
     }
-
-    #menu
-    {
+    #menu {
         position: absolute;
         width: 300px;
         margin: -50px 0 0 -190px;
         padding: 50px;
         padding-top: 125px;
-        
         background: #2b57a1;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         opacity: 0.9;
-  
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
-        
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
-
-    #menu li
-    {
+    #menu li {
         padding: 10px 0;
-        font-size: 22px;
+        font-size: 30px;
     }
-
-    #menuToggle input:checked ~ ul
-    {
+    #menuToggle input:checked ~ ul {
         transform: none;
     }
-    
     h1, h2, h3 {
         font-family: 'Pacifico', cursive;
         font-weight: normal;
@@ -135,7 +94,6 @@
     #nav {
         height: 76px;
         background: #2b57a1;
-        /* display: flex; */
         justify-content: space-between;
         position: fixed;
         top: 0;
@@ -146,24 +104,21 @@
         text-align: center;
     }
     .logo {
-        height: 80px;
-        width: 120px;
-        margin: auto;
+        height: 78px;
+        width: 93px;
         align-self: center;
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         position: relative;
+        border-radius: 14%;
+        margin: 0 20px 20px 0
     }
     .menu {
         align-items: stretch;
         display: none
-        /* visibility: hidden; */
     }
     .nav-item {
         background: #2b57a1;
-        ;
-        /* display: flex; */
         align-items: center;
         align-self: center;
         justify-content: center;
@@ -186,7 +141,8 @@
         margin-left: 0;
         margin-right: 0;
         background-color: #2b57a1;
-        /* display: flex; */
+        height: 580px;
+        padding-top: 20px;
     }
     .hero-left {
         display: block;
@@ -194,18 +150,19 @@
     }
     .hero-text {
         background: #2b57a1;
-        width: 80%;
-        margin: 0 auto auto auto;
-        padding: 20px;
-        /* text-align: center; */
         color: #f1f4fc;
+        padding: 20px;
+        text-align: center;
     }
-    
+    .hero-text_sloth_down {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
     .hero-button {
         background: #2b57a1;
         color: white;
-        margin-top: 60px;
-        margin-left: 25px
+        margin-top: 45px;
     }
     .hero-button__color {
         background: white;
@@ -218,21 +175,22 @@
         height: 281px;
         width: 450px;
         margin: 0 auto;
-        margin-top: 70px;
+        color: #f1f4fc;
     }
-    .hero-right img {
-        width: 100%;
-        height: 100%;
+    .hero-slider img {
+        width: 87%;
+        height: 87%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         position: absolute;
-        transition: all 2s;
+        transition: all 4s;
+        border-radius: 20px;
     }
     .hero-right img:first-child {
         opacity: 0;
     }
     .hero-right img:last-child {
         opacity: 1;
-        animation: appear 2s;
+        animation: appear 4s;
     }
     @keyframes appear {
         0% {
@@ -247,7 +205,7 @@
         height: 52px;
         letter-spacing: 4px;
         cursor: pointer;
-        transition: color 0.5s, font-size 0.5s;
+        transition: color 0.5s;
     }
     #hero a :hover {
         color: lightblue;
@@ -258,29 +216,28 @@
         text-align: center;
     }
     .main-box {
-        /* display: flex; */
         justify-content: space-around;
-        padding-top: 40px;
+        padding-top: 200px;
     }
     .main-column {
-        margin: 5px;
+        padding: 5px 50px 10px 50px;
         text-align: center;
     }
     .main-icon {
-        display: block
+        display: block;
     }
     .main-text{
         color: black;
     }
     .form-container {
-        height: 250px;
+        height: 460px;
         background: #18bfac;
         align-items: center;
         justify-content: center;
+        margin-top: 30px;
+        font-size: 27px;
     }
     .form {
-        height: 35%;
-        width: 40%;
         background: #5e93d4;
         align-items: center;
         width: 100%
@@ -297,13 +254,10 @@
         letter-spacing: 2px;
         color: #122843;
         text-align: center;
-        padding: 0 15px;
+        padding: 40px 60px 30px 60px;
     }
     .form-text__input{
-        /* margin-left: 76px;
-        margin-top: 28px; */
-        margin: auto;
-        
+        margin: auto;  
     }
     .form-text2 {
         margin-bottom: 1rem;
@@ -312,8 +266,6 @@
     .form-btn {
         border-radius: 15px;
         margin: auto;
-        /* margin-top: 42px;
-        margin-left: 78px; */
     }
     .form-btn button {
         width: 205px;
@@ -333,7 +285,6 @@
         background: #18bfac
     }
     .team-top {
-        /* display: flex; */
         justify-content: space-between;
     }
     .team-description {
@@ -347,13 +298,12 @@
     .team-logo-img {
         margin: 0;
         padding: 0;
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         border-radius: 5%;
         box-shadow: 0 0 20px whitesmoke;
     }
     .team-bottom {
-        /* display: flex; */
         justify-content: space-between;
         padding-left: 5%;
         padding-right: 5%;
@@ -362,6 +312,8 @@
         margin: auto;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
         text-align: center;
+        width: 80%;
+        border-radius: 15px;
     }
     .team-member, .team-description {
         box-sizing: border-box;
@@ -373,22 +325,23 @@
     }
     .member-img-container {
         box-shadow: 0 0 20px whitesmoke;
-        margin-left: auto;
-        margin-right: auto;
-        
+        margin-top: 45px;
+        margin-bottom: 10px;
+        height: 30%;
+        width: 40%;
+        border-radius: 20px;
     }
     .member-description {
         text-align: center;
         box-shadow: 0 0 15px white;
         animation: appear 5s;
-        font-size: 1.5em;
+        font-size: 1em;
         color: black;
         line-height: 1.1;
         margin-top: 5px;
     }
     .member-links {
-        font-size: 1.5em;
-
+        font-size: 1em;
         text-align: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
