@@ -135,6 +135,7 @@
     }
     #hero {
         margin: 0;
+        width: 100%;
     }
     .hero-container {
         margin-top: 76px;
@@ -142,6 +143,7 @@
         margin-right: 0;
         background-color: #2b57a1;
         height: 580px;
+        width: auto;
         padding-top: 20px;
     }
     .hero-left {
@@ -255,6 +257,7 @@
         color: #122843;
         text-align: center;
         padding: 40px 60px 30px 60px;
+        height: auto;;
     }
     .form-text__input{
         margin: auto;  
@@ -375,9 +378,10 @@
     .footer {
         background: #2b57a1;
     }
+        
     .footer-text {
         text-align: center;
         color: aliceblue;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 30px; 
     }
