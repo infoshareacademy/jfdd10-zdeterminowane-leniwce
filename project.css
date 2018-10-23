@@ -135,6 +135,7 @@
     }
     #hero {
         margin: 0;
+        width: 100%;
     }
     .hero-container {
         margin-top: 76px;
