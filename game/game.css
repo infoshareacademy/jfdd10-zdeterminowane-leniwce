@@ -144,6 +144,7 @@ body {
     background-image: url(img/note.png);
     background-repeat: no-repeat;
     background-size: contain;
+    font-size: 66px;
 }
 
 .end-screen-text {
@@ -211,3 +212,15 @@ body {
 }
 
 /* right part end */
+
+.back-to-page{
+    height: 10px;
+    width: 10px;
+    font-size: 56px;
+    color: black;
+    text-decoration: none;
+
+}
+.back-to-page:hover { 
+    color: lightblue;
+}
