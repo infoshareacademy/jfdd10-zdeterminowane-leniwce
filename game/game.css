@@ -133,6 +133,10 @@ body {
     grid-area: main;
     background-image: url(img/bgBlue.jpg);
 }
+.mainInstr{
+    grid-area: main;
+    background-image: url(img/bgBlue.jpg);
+}
 
 .end-screen {
     width: 90%;
