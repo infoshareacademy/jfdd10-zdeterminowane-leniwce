@@ -137,7 +137,19 @@ body {
     text-align: center;
     padding: 10%;
     line-height: 0.7em;
-    font-size: 0.5em;
+    font-size: 0.6em;
+}
+
+.back-to-page-beginnging{
+    height: 10px;
+    width: 10px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+
+}
+.back-to-page-beginnging:hover { 
+    color: rgb(82, 144, 224);
 }
 
 .screen {
@@ -228,5 +240,5 @@ body {
 
 }
 .back-to-page:hover { 
-    color: lightblue;
+    color: rgb(64, 124, 202);
 }
