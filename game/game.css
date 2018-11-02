@@ -128,8 +128,37 @@ body {
     text-align: center;
     background-image: url(img/bgBlue.jpg);
 }
+.main-beginning {
+    grid-area: main;
+    background-image: url(img/bgBlue.jpg);
+}
 
-.main {
+.screen-beginning {
+    width: 90%;
+    height: 90%;
+    color: black;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    background-image: url(img/note.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 66px;
+}
+
+.screen-text-beginning {
+    text-align: center;
+    padding: 10%;
+    line-height: 0.5em;
+    visibility: hidden;
+}
+.screen-text-Active-beginnig{
+    text-align: center;
+    padding: 10%;
+    line-height: 0.5em;
+}
+
+.main-end {
     grid-area: main;
     background-image: url(img/bgBlue.jpg);
 }
