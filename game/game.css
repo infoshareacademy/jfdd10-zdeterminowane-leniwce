@@ -136,7 +136,8 @@ body {
 .screen-text-beginning {
     text-align: center;
     padding: 10%;
-    line-height: 0.5em;
+    line-height: 0.7em;
+    font-size: 0.5em;
 }
 
 .screen {
@@ -144,7 +145,6 @@ body {
     height: 90%;
     color: black;
     text-align: center;
-    font-size: 5em;
     margin: auto;
     background-image: url(img/note.png);
     background-repeat: no-repeat;
@@ -157,6 +157,7 @@ body {
     padding: 10%;
     line-height: 0.5em;
     display: none;
+    font-size: 5em;
 }
 .end-screen-text-Active{
     text-align: center;
