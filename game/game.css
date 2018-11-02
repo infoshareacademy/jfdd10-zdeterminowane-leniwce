@@ -150,7 +150,7 @@ body {
     text-align: center;
     padding: 10%;
     line-height: 0.5em;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 .screen-text-Active-beginnig{
     text-align: center;
@@ -180,7 +180,7 @@ body {
     text-align: center;
     padding: 10%;
     line-height: 0.5em;
-    visibility: hidden;
+    display: none;
 }
 .end-screen-text-Active{
     text-align: center;
