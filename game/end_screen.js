@@ -21,6 +21,6 @@ var interval = setInterval(function (){
     clearInterval(intervalId)
   }
  
-},300);
+},1000);
 
 
