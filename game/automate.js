@@ -1,4 +1,4 @@
-
+let intervalId;
 (function () {
     var automateOneField = document.querySelector('.auto-one');
 
@@ -23,7 +23,7 @@
         }
     });
 
-    setInterval(function () {
+    intervalId = setInterval(function () {
         var autoOneCost = parseInt(document.querySelector(".auto-one-cost").innerHTML);
 
         autoOneCost <= score ? automateOneField.classList.add('available') : automateOneField.classList.remove('available');
