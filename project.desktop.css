@@ -150,6 +150,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-around;
     padding-top: 55px;
+    flex-wrap: wrap;
 }
 .main-column {
     margin: 5px;
